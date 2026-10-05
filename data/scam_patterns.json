@@ -1,5 +1,5 @@
 {
-  "data_version": 11,
+  "data_version": 12,
   "schema_version": "1.4",
   "categories": [
     {
@@ -440,6 +440,49 @@
         "chiết khấu nếu thanh toán"
       ],
       "advice": "Người lạ xưng là nhân viên cơ quan, bệnh viện, trường học nhờ “mua hàng hộ” rồi giới thiệu một cửa hàng đòi chuyển khoản trước: người nhờ và “cửa hàng” thường là cùng một nhóm. Hãy gọi số chính thức của cơ quan đó để xác minh trước khi chuyển tiền."
+    },
+    {
+      "id": "social_housing_slot",
+      "name": "Bán “suất ngoại giao” nhà ở xã hội / thu tiền giữ chỗ",
+      "icon": "🏠",
+      "severity_weight": 0.8,
+      "keywords": [
+        "có suất ngoại giao",
+        "còn suất ngoại giao",
+        "suất ngoại giao giá",
+        "mua suất ngoại giao của",
+        "phí đối ngoại",
+        "giữ chỗ làm tin",
+        "bao đậu hồ sơ nhà ở xã hội",
+        "bao đỗ hồ sơ nhà ở xã hội",
+        "chênh suất nhà ở xã hội",
+        "tiền chênh suất",
+        "suất nội bộ nhà ở xã hội",
+        "quen lãnh đạo nên có suất"
+      ],
+      "advice": "Không có “suất ngoại giao” nhà ở xã hội. Người nhận “giữ chỗ”, thu “tiền chênh” hay “phí đối ngoại” thường chiếm đoạt tiền rồi cắt liên lạc. Hãy nộp hồ sơ trực tiếp cho chủ đầu tư, kiểm tra pháp lý dự án và đừng đưa tiền cho người môi giới hứa “bao đậu”."
+    },
+    {
+      "id": "counterfeit_money_sale",
+      "name": "Rao bán tiền giả trên mạng (lừa tiền cọc)",
+      "icon": "💵",
+      "severity_weight": 0.85,
+      "keywords": [
+        "tiền giả y như thật",
+        "tiền giả như thật",
+        "tiền giả chất lượng cao",
+        "tiền giả khó phát hiện",
+        "tiền giả giá rẻ",
+        "bán tiền giả tỉ lệ",
+        "bán tiền giả tỷ lệ",
+        "tiền giả tỉ lệ 1",
+        "tiền giả tỷ lệ 1",
+        "cung cấp tiền giả",
+        "nhận ship tiền giả",
+        "tiền giả ship cod",
+        "tiền giả bao test"
+      ],
+      "advice": "Mua, bán, tàng trữ hay tiêu thụ tiền giả đều là phạm tội. Các tài khoản rao bán tiền giả “tỉ lệ cao”, “khó phát hiện” trên mạng thường nhận tiền cọc rồi chặn liên lạc. Đừng liên hệ, đừng chuyển tiền; gặp thì báo công an."
     }
   ],
   "red_flag_signals": [

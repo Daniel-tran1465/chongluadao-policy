@@ -1,5 +1,5 @@
 {
-  "data_version": 10,
+  "data_version": 11,
   "_ghi_chu": "tips = lời khuyên do nhóm tự soạn (không nêu số liệu). stats = số liệu/nhận định CÓ NGUỒN: chỉ đưa vào khi đã đọc bài gốc, bắt buộc có source, source_url, as_of. Không bịa số liệu.",
   "tips": [
     {
@@ -241,6 +241,26 @@
       "id": "criminal_record",
       "title": "“Làm lý lịch tư pháp nhanh, lấy ngay” trên mạng",
       "text": "Dịch vụ quảng cáo “không cần thủ tục” thường thu phí rồi biến mất, hoặc lấy ảnh căn cước và tài khoản ngân hàng của bạn. Phiếu lý lịch tư pháp làm được trên ứng dụng VNeID hoặc Cổng Dịch vụ công quốc gia."
+    },
+    {
+      "id": "social_housing_slot",
+      "title": "Không có “suất ngoại giao” nhà ở xã hội",
+      "text": "Ai nói “quen lãnh đạo”, nhận “giữ chỗ làm tin” hay thu “tiền chênh”, “phí đối ngoại” để bạn mua được nhà ở xã hội thì đừng đưa tiền. Hồ sơ nộp trực tiếp cho chủ đầu tư; hãy kiểm tra pháp lý dự án trước."
+    },
+    {
+      "id": "counterfeit_money",
+      "title": "Thấy rao bán tiền giả trên mạng: đừng liên hệ",
+      "text": "Mua bán tiền giả là phạm tội, và người rao bán thường chỉ nhận tiền cọc rồi chặn liên lạc. Nhận phải tờ tiền nghi giả thì mang ra ngân hàng hoặc báo công an, đừng tiêu tiếp."
+    },
+    {
+      "id": "product_recall_call",
+      "title": "Cuộc gọi báo “hàng lỗi cần thu hồi, hoàn tiền”",
+      "text": "Kẻ gian đọc đúng tên bạn, món hàng, ngày nhận rồi bảo sản phẩm thuộc lô lỗi cần thu hồi, rủ sang Zalo hay Telegram để “hoàn tiền” và gửi link, mã QR. Hãy tự mở ứng dụng mua sắm để kiểm tra đơn; đừng quét mã, đừng đọc mã OTP."
+    },
+    {
+      "id": "land_data_cleanup",
+      "title": "“Làm sạch dữ liệu đất đai” không cần cài ứng dụng lạ",
+      "text": "Người xưng cán bộ địa chính, văn phòng đăng ký đất đai hay thuế gọi điện đòi ảnh căn cước, sổ đỏ, bảo cài “phần mềm xác thực” hoặc nộp “phí cập nhật dữ liệu” là dấu hiệu lừa đảo. Hãy hỏi trực tiếp ủy ban xã, phường nơi có đất."
     }
   ],
   "stats": [
@@ -379,6 +399,38 @@
       "source": "VTV",
       "source_url": "https://vtv.vn/canh-giac-bay-lua-dao-nut-bam-hanh-dong-10026100121291228.htm",
       "as_of": "2026-10-01"
+    },
+    {
+      "id": "land_data_caobang",
+      "title": "Giả cán bộ địa chính “làm sạch dữ liệu đất đai”",
+      "text": "Công an tỉnh Cao Bằng (03/10/2026) cảnh báo: kẻ gian giả cán bộ địa chính, văn phòng đăng ký đất đai hoặc cơ quan thuế, gọi điện, nhắn tin hay gửi giấy mời; đòi căn cước, sổ đỏ, thông tin tài khoản; gửi link cài “phần mềm xác thực”; dọa xử phạt, khóa hồ sơ rồi thu “phí cập nhật dữ liệu”.",
+      "source": "CafeF, theo Công an tỉnh Cao Bằng",
+      "source_url": "https://cafef.vn/tat-ca-nguoi-dan-co-so-do-chu-y-thong-bao-moi-tu-cong-an-188261003071643802.chn",
+      "as_of": "2026-10-03"
+    },
+    {
+      "id": "social_housing_bocongan",
+      "title": "“Suất ngoại giao” nhà ở xã hội: thu 20–100 triệu giữ chỗ",
+      "text": "Cục An ninh kinh tế, Bộ Công an (02/10/2026) cảnh báo: có đối tượng khoe quen biết lãnh đạo, có “suất ngoại giao”, yêu cầu nộp 20–100 triệu đồng để giữ chỗ, rồi đòi tiếp khoản chênh 300 triệu đến 1 tỷ đồng tùy dự án. Khuyến cáo: nộp hồ sơ trực tiếp cho chủ đầu tư, không trả tiền chênh hay “phí đối ngoại”.",
+      "source": "CafeF, theo Cục An ninh kinh tế (Bộ Công an)",
+      "source_url": "https://cafef.vn/bo-cong-an-canh-bao-hang-loat-thu-doan-bay-nguoi-mua-nha-188261002144558919.chn",
+      "as_of": "2026-10-02"
+    },
+    {
+      "id": "product_recall_hanoi",
+      "title": "Giả nhân viên sàn, hãng vận chuyển báo thu hồi hàng lỗi",
+      "text": "Công an TP Hà Nội (Kenh14, 01/10/2026) cảnh báo: sau khi đơn hàng giao xong, kẻ gian gọi xưng nhân viên sàn, đại diện thương hiệu hay đơn vị vận chuyển, đọc đúng thông tin đơn, báo sản phẩm lỗi hoặc hàng cấm cần thu hồi, rồi chuyển sang Zalo, Telegram, Facebook gửi link giả, mã QR để lấy thông tin ngân hàng và mã xác thực.",
+      "source": "Kenh14, theo Công an TP Hà Nội",
+      "source_url": "https://kenh14.vn/tat-ca-nguoi-dan-hay-mua-sam-online-chu-y-canh-bao-moi-nhat-tu-cong-an-215261001100111235.chn",
+      "as_of": "2026-10-01"
+    },
+    {
+      "id": "counterfeit_money_haiphong",
+      "title": "Rao bán tiền giả trên Facebook, Zalo, Telegram",
+      "text": "Phòng An ninh kinh tế, Công an TP Hải Phòng (05/10/2026) cảnh báo: tài khoản ảo rao bán tiền giả với lời quảng cáo “tỉ lệ cao”, “khó phát hiện”; có đối tượng dùng tiền giả để đặt cọc, giao dịch nhằm chiếm đoạt tiền và hàng thật. Khuyến cáo: không mua, bán, vận chuyển hay nhận tiền giả dưới bất kỳ hình thức nào.",
+      "source": "Báo Công lý, theo Công an TP Hải Phòng",
+      "source_url": "https://congly.vn/canh-giac-thu-doan-dung-tien-gia-lua-dao-chiem-doat-tai-san-541925.html",
+      "as_of": "2026-10-05"
     }
   ]
 }

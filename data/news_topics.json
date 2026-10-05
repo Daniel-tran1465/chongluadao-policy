@@ -1,5 +1,5 @@
 {
-  "data_version": 11,
+  "data_version": 12,
   "topics": [
     {
       "id": "fake_authority",
@@ -50,7 +50,8 @@
         "forex",
         "coin",
         "đa cấp",
-        "huy động vốn"
+        "huy động vốn",
+        "tiền giả"
       ]
     },
     {
@@ -112,7 +113,8 @@
         "biên lai giả",
         "bill giả",
         "chuyển khoản giả",
-        "giao dịch giả"
+        "giao dịch giả",
+        "lô hàng lỗi"
       ]
     },
     {
@@ -209,7 +211,10 @@
         "dịch vụ công",
         "cán bộ thuế",
         "định danh điện tử",
-        "lý lịch tư pháp"
+        "lý lịch tư pháp",
+        "làm sạch dữ liệu đất đai",
+        "nhà ở xã hội",
+        "suất ngoại giao"
       ]
     }
   ],
