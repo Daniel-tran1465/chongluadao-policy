@@ -1,0 +1,1005 @@
+{
+  "data_version": 11,
+  "schema_version": "1.4",
+  "categories": [
+    {
+      "id": "fake_authority",
+      "name": "Giả danh công an / viện kiểm sát / tòa án",
+      "icon": "👮",
+      "severity_weight": 0.95,
+      "keywords": [
+        "cơ quan điều tra",
+        "cơ quan công an",
+        "viện kiểm sát",
+        "lệnh bắt",
+        "lệnh tạm giam",
+        "liên quan đến vụ án",
+        "đường dây ma túy",
+        "đường dây rửa tiền",
+        "xác minh tài khoản ngân hàng",
+        "hợp tác điều tra",
+        "giữ bí mật điều tra",
+        "không được nói với ai",
+        "kết nối với công an",
+        "chứng minh tiền trong sạch",
+        "chứng minh trong sạch",
+        "vay tiền qua ứng dụng rồi chuyển",
+        "vay tiền qua app rồi chuyển",
+        "chứng minh tài sản",
+        "phục vụ điều tra",
+        "chứng minh mình không liên quan",
+        "không liên quan đến vụ án"
+      ],
+      "advice": "Cơ quan công an không yêu cầu chuyển tiền hay xác minh tài khoản qua điện thoại. Hãy cúp máy, tự tra số của cơ quan đó và gọi lại, hoặc đến trực tiếp trụ sở công an gần nhất."
+    },
+    {
+      "id": "fake_bank_support",
+      "name": "Giả danh ngân hàng / tổng đài CSKH",
+      "icon": "🏦",
+      "severity_weight": 0.9,
+      "keywords": [
+        "tổng đài ngân hàng",
+        "khóa thẻ của quý khách",
+        "tài khoản bị đóng băng",
+        "xác thực lại tài khoản",
+        "cập nhật sinh trắc học",
+        "nâng cấp thẻ",
+        "cung cấp mã otp",
+        "đọc mã otp",
+        "đăng nhập vào link sau",
+        "tài khoản của bạn có dấu hiệu bất thường"
+      ],
+      "advice": "Ngân hàng không bao giờ hỏi mã OTP hay mật khẩu. Hãy cúp máy và gọi lại hotline in trên mặt sau thẻ hoặc trong app ngân hàng chính thức."
+    },
+    {
+      "id": "fake_relative_emergency",
+      "name": "Giả người thân gặp nạn / cấp cứu",
+      "icon": "🚑",
+      "severity_weight": 0.85,
+      "keywords": [
+        "con đang cấp cứu",
+        "người nhà bị tai nạn",
+        "đang ở bệnh viện",
+        "cần tiền gấp để mổ",
+        "chuyển tiền gấp giúp",
+        "đổi số điện thoại mới",
+        "đừng gọi lại số cũ",
+        "mượn tạm ít tiền"
+      ],
+      "advice": "Gọi trực tiếp vào số cũ của người thân, hoặc người đang ở cùng họ, để xác minh trước khi chuyển bất kỳ khoản tiền nào."
+    },
+    {
+      "id": "prize_scam",
+      "name": "Trúng thưởng / khuyến mãi giả",
+      "icon": "🎁",
+      "severity_weight": 0.8,
+      "keywords": [
+        "bạn đã trúng thưởng",
+        "nhận quà tri ân",
+        "chương trình may mắn",
+        "đóng phí nhận thưởng",
+        "phí vận chuyển giải thưởng",
+        "xác nhận thông tin để nhận quà",
+        "vé cào trúng thưởng",
+        "combo vé cào",
+        "vé số online trúng thưởng",
+        "bốc thăm ngẫu nhiên số điện thoại",
+        "bốc thăm số điện thoại",
+        "tạm ứng trước để nhận thưởng"
+      ],
+      "advice": "Chương trình thật không thu phí để trao thưởng. Không bấm link lạ và không cung cấp thông tin cá nhân."
+    },
+    {
+      "id": "fake_investment_job",
+      "name": "Đầu tư giả / việc nhẹ lương cao",
+      "icon": "💸",
+      "severity_weight": 0.85,
+      "keywords": [
+        "việc nhẹ lương cao",
+        "làm tại nhà thu nhập cao",
+        "đầu tư sinh lời",
+        "cam kết lãi suất cao",
+        "nạp tiền để nhận nhiệm vụ",
+        "hoa hồng hấp dẫn",
+        "chỉ cần thao tác đơn giản",
+        "nhóm đầu tư vip",
+        "sàn giao dịch quốc tế",
+        "nhân đôi tài sản",
+        "chuyên gia tài chính hướng dẫn miễn phí",
+        "cộng tác viên",
+        "làm cộng tác viên online",
+        "sắp niêm yết trên sàn quốc tế",
+        "sắp lên sàn quốc tế",
+        "coin sắp lên sàn",
+        "đồng coin tiềm năng",
+        "lợi nhuận gấp nhiều lần",
+        "kéo lệnh",
+        "vào lệnh theo chuyên gia",
+        "tín hiệu giao dịch miễn phí",
+        "gói nhiệm vụ đặc biệt",
+        "chơi hộ hưởng chênh lệch",
+        "gói tiết kiệm lãi suất cao",
+        "gửi tiết kiệm online lãi suất cao",
+        "lãi suất tiết kiệm 15%",
+        "lãi suất tiết kiệm 20%"
+      ],
+      "advice": "Cam kết lãi cao hoặc việc nhẹ lương cao thường là bẫy. Tuyệt đối không nạp tiền để nhận nhiệm vụ dưới bất kỳ hình thức nào."
+    },
+    {
+      "id": "deepfake_video_call",
+      "name": "Giả mạo qua video call (deepfake)",
+      "icon": "🎥",
+      "severity_weight": 0.9,
+      "keywords": [
+        "gọi video xác minh",
+        "nhìn thẳng vào camera",
+        "nhìn sang trái",
+        "nhìn lên nhìn xuống",
+        "quét khuôn mặt để xác nhận"
+      ],
+      "advice": "Giọng nói và khuôn mặt có thể bị AI giả mạo. Hãy hỏi một câu chỉ người thật mới biết, hoặc gọi lại bằng số quen thuộc."
+    },
+    {
+      "id": "ai_sextortion",
+      "name": "Dọa phát tán ảnh / video nhạy cảm (ảnh ghép AI)",
+      "icon": "🖼️",
+      "severity_weight": 0.9,
+      "keywords": [
+        "ảnh nóng của bạn",
+        "ảnh nóng của mày",
+        "ảnh nhạy cảm của bạn",
+        "ảnh nhạy cảm của mày",
+        "video nhạy cảm của bạn",
+        "video nhạy cảm của mày",
+        "clip nhạy cảm của bạn",
+        "clip nóng của bạn",
+        "clip nóng của mày",
+        "video nóng của bạn",
+        "phát tán ảnh của",
+        "phát tán clip của",
+        "phát tán video của",
+        "tung clip của",
+        "tung ảnh của",
+        "không thì tao phát tán",
+        "sẽ phát tán cho"
+      ],
+      "advice": "Bình tĩnh và KHÔNG chuyển tiền — trả rồi chúng vẫn đòi tiếp. Ảnh, video kiểu này thường được ghép bằng AI từ ảnh bạn đăng trên mạng. Hãy chụp lại tin nhắn, số điện thoại, số tài khoản của kẻ dọa, chặn liên lạc và trình báo công an nơi gần nhất."
+    },
+    {
+      "id": "fake_shipper_cod",
+      "name": "Giả shipper / đơn hàng COD",
+      "icon": "📦",
+      "severity_weight": 0.75,
+      "keywords": [
+        "đơn hàng của bạn đang giao",
+        "shipper giao hàng",
+        "xác nhận đơn hàng",
+        "chuyển khoản trước khi giao",
+        "phí ship phát sinh",
+        "đơn hàng bị lỗi cần hoàn tiền",
+        "quét mã để nhận hàng"
+      ],
+      "advice": "Kiểm tra lại đơn hàng trong app của sàn mua sắm. Không chuyển khoản trước cho người lạ và không quét mã QR họ gửi."
+    },
+    {
+      "id": "fake_telco_sim_lock",
+      "name": "Giả nhà mạng dọa khóa sim",
+      "icon": "📱",
+      "severity_weight": 0.8,
+      "keywords": [
+        "sim của bạn sẽ bị khóa",
+        "chuẩn hóa thông tin thuê bao",
+        "cập nhật thông tin thuê bao",
+        "nâng cấp sim 4g 5g miễn phí",
+        "thuê bao chưa chuẩn hóa"
+      ],
+      "advice": "Nhà mạng không đe dọa khóa sim qua tin nhắn hay cuộc gọi lạ. Chỉ chuẩn hóa thông tin tại cửa hàng hoặc app chính thức của nhà mạng."
+    },
+    {
+      "id": "romance_scam",
+      "name": "Lừa tình cảm qua mạng",
+      "icon": "💕",
+      "severity_weight": 0.8,
+      "keywords": [
+        "gửi quà từ nước ngoài",
+        "phí hải quan",
+        "đang ở sân bay",
+        "chuyển tiền để nhận quà",
+        "chúng ta yêu nhau",
+        "đóng thuế hải quan",
+        "muốn gửi tặng em một món quà"
+      ],
+      "advice": "Người chưa từng gặp mặt mà nhờ đóng phí nhận quà là dấu hiệu lừa đảo. Không chuyển tiền cho người quen qua mạng."
+    },
+    {
+      "id": "fake_loan_app",
+      "name": "Vay tiền online lãi thấp, đòi phí giải ngân",
+      "icon": "💰",
+      "severity_weight": 0.8,
+      "keywords": [
+        "vay tiền nhanh",
+        "giải ngân trong ngày",
+        "phí giải ngân",
+        "không cần thế chấp",
+        "duyệt vay online",
+        "phí bảo hiểm khoản vay",
+        "vay tín chấp lãi suất thấp"
+      ],
+      "advice": "Khoản vay thật không thu phí giải ngân trước. Chỉ vay ở đơn vị tài chính được cấp phép."
+    },
+    {
+      "id": "wrong_transfer_scam",
+      "name": "Chuyển khoản nhầm rồi đòi lại kèm lãi",
+      "icon": "⚠️",
+      "severity_weight": 0.7,
+      "keywords": [
+        "chuyển nhầm vào tài khoản của bạn",
+        "vui lòng chuyển lại số tiền",
+        "khoản vay tín chấp",
+        "liên hệ để hoàn trả khoản vay",
+        "đây là khoản vay bạn đã đăng ký"
+      ],
+      "advice": "Không chuyển lại tiền theo yêu cầu của người lạ. Liên hệ chính ngân hàng của bạn để được hướng dẫn xử lý khoản chuyển nhầm."
+    },
+    {
+      "id": "fake_utility",
+      "name": "Giả điện lực / nhà cung cấp dịch vụ dọa cắt điện",
+      "icon": "⚡",
+      "severity_weight": 0.8,
+      "keywords": [
+        "nợ tiền điện",
+        "sẽ bị cắt điện",
+        "tiền điện chưa thanh toán",
+        "hóa đơn tiền điện chưa",
+        "thanh toán tiền điện qua link",
+        "điện lực yêu cầu chuyển khoản",
+        "cắt điện trong hôm nay",
+        "cập nhật hợp đồng điện",
+        "đồng bộ hợp đồng điện",
+        "hợp đồng điện cần cập nhật",
+        "hợp đồng điện cần đồng bộ",
+        "hợp đồng điện của quý khách cần",
+        "hợp đồng điện của khách hàng cần",
+        "tích hợp vào hợp đồng điện",
+        "ngừng cấp điện trong hôm nay",
+        "bị ngừng cấp điện nếu không",
+        "phí mua công tơ",
+        "phí lắp đặt công tơ",
+        "tiền đặt cọc công tơ",
+        "thu phí thay công tơ",
+        "đóng phí thay công tơ"
+      ],
+      "advice": "Điện lực không yêu cầu chuyển khoản vào tài khoản cá nhân hay qua link lạ. Hãy tra cứu hóa đơn trong app hoặc website chính thức của điện lực, hoặc gọi tổng đài in trên hóa đơn. Theo Điện lực TP.HCM, thay công tơ cơ sang công tơ điện tử là miễn phí — ai đòi “phí mua công tơ”, “phí lắp đặt” hay tiền đặt cọc là dấu hiệu lừa đảo. Không đưa ảnh căn cước cho người gọi điện hay gọi video."
+    },
+    {
+      "id": "fake_government_service",
+      "name": "Giả cổng dịch vụ công / VNeID / thuế / bảo hiểm xã hội",
+      "icon": "🏛️",
+      "severity_weight": 0.85,
+      "keywords": [
+        "cập nhật vneid",
+        "kích hoạt vneid",
+        "tài khoản định danh điện tử của bạn",
+        "xác thực vneid qua link",
+        "hoàn thuế thu nhập cá nhân",
+        "nợ thuế của bạn",
+        "bhxh của bạn bị khóa",
+        "bảo hiểm xã hội của bạn bị khóa",
+        "nhận tiền hỗ trợ qua link",
+        "mã định danh tài sản",
+        "mã định danh thửa đất",
+        "kê khai dữ liệu đất đai",
+        "sở nông nghiệp và môi trường",
+        "giấy mời làm việc",
+        "giấy triệu tập",
+        "số hóa sổ đỏ",
+        "chưa đồng bộ trên hệ thống đất đai",
+        "đồng bộ dữ liệu dân cư",
+        "hỗ trợ định danh điện tử",
+        "cập nhật dữ liệu hộ kinh doanh",
+        "xác thực dữ liệu hộ kinh doanh",
+        "chuyển đổi từ thuế khoán sang kê khai qua link",
+        "cài etax mobile qua link",
+        "cán bộ thuế hướng dẫn cài đặt",
+        "tập huấn chính sách thuế qua zalo",
+        "phí cập nhật dữ liệu",
+        "phí chỉnh lý hồ sơ",
+        "phí xác thực hồ sơ",
+        "bị khóa hồ sơ",
+        "khóa hồ sơ đất",
+        "cài ứng dụng cập nhật dữ liệu đất đai",
+        "ứng dụng xác thực dữ liệu đất đai",
+        "làm phiếu lý lịch tư pháp nhanh",
+        "làm lý lịch tư pháp nhanh",
+        "lý lịch tư pháp lấy ngay",
+        "lý lịch tư pháp không cần thủ tục"
+      ],
+      "advice": "Cơ quan nhà nước không yêu cầu cung cấp mã xác thực hay chuyển tiền qua tin nhắn/link lạ. Chỉ dùng ứng dụng VNeID, eTax Mobile và cổng dịch vụ công chính thức tải từ kho ứng dụng; trang web thật của cơ quan nhà nước luôn có đuôi .gov.vn."
+    },
+    {
+      "id": "fake_ecommerce_refund",
+      "name": "Giả nhân viên sàn thương mại điện tử hoàn tiền / hủy đơn",
+      "icon": "🛒",
+      "severity_weight": 0.8,
+      "keywords": [
+        "hoàn tiền đơn hàng",
+        "đơn hàng của bạn bị hủy",
+        "nhân viên shopee",
+        "nhân viên lazada",
+        "tổng đài shopee",
+        "tổng đài lazada",
+        "nhân viên tiktok shop",
+        "đơn hàng bị lỗi cần xác nhận",
+        "hoàn tiền vào tài khoản của bạn",
+        "thu hồi gấp",
+        "lô hàng lỗi cần thu hồi",
+        "kích hoạt hoàn tiền",
+        "kích hoạt đơn hoàn tiền",
+        "sản phẩm bị lỗi cần thu hồi",
+        "sản phẩm của bạn bị thu hồi",
+        "hoàn tiền do sản phẩm lỗi",
+        "kết bạn zalo để được hoàn tiền",
+        "nhận hoàn tiền qua zalo",
+        "đơn hàng chứa hàng cấm",
+        "hàng cấm cần thu hồi",
+        "thuộc diện thu hồi",
+        "thuộc lô hàng lỗi",
+        "tạo mã thu hồi",
+        "tạo mã trả hàng",
+        "xác minh lệnh hoàn tiền",
+        "lệnh hoàn tiền"
+      ],
+      "advice": "Sàn thương mại không yêu cầu bạn chuyển tiền hay đọc mã OTP để được hoàn tiền. Hãy kiểm tra đơn trong app chính thức của sàn."
+    },
+    {
+      "id": "fake_school_fee",
+      "name": "Giả nhà trường thu học phí / lệ phí nhập học",
+      "icon": "🎒",
+      "severity_weight": 0.8,
+      "keywords": [
+        "mất suất nhập học",
+        "kẻo mất suất",
+        "giữ suất nhập học",
+        "hệ thống thu học phí bị lỗi",
+        "hệ thống thu học phí đang lỗi",
+        "chuyển học phí vào tài khoản cá nhân",
+        "nộp học phí vào tài khoản cá nhân",
+        "đóng tiền ký túc xá qua tài khoản cá nhân"
+      ],
+      "advice": "Nhà trường chỉ thu học phí, lệ phí qua kênh chính thức (tài khoản đứng tên trường, cổng thanh toán hoặc ứng dụng trường đã thông báo). Không chuyển vào tài khoản cá nhân, không quét mã QR lạ; gọi trực tiếp văn phòng trường theo số trên website chính thức để xác minh."
+    },
+    {
+      "id": "bank_account_rental",
+      "name": "Rủ mở / cho thuê tài khoản ngân hàng nhận hoa hồng",
+      "icon": "🪪",
+      "severity_weight": 0.8,
+      "keywords": [
+        "cho thuê tài khoản ngân hàng",
+        "thuê tài khoản ngân hàng",
+        "mua tài khoản ngân hàng",
+        "mở tài khoản nhận hoa hồng",
+        "mở tài khoản ngân hàng nhận tiền",
+        "hoa hồng mỗi tài khoản",
+        "kyc kiếm tiền",
+        "làm kyc ngân hàng",
+        "xác thực tài khoản nhận hoa hồng",
+        "xác thực khuôn mặt hộ"
+      ],
+      "advice": "Mở hộ, cho thuê, cho mượn hay bán tài khoản ngân hàng là vi phạm pháp luật: tài khoản của bạn sẽ bị kẻ gian dùng để nhận tiền lừa đảo, có thể bị phong tỏa và bạn có thể bị xử lý. Không giao CCCD, khuôn mặt, sim, thẻ hay mật khẩu ngân hàng cho bất kỳ ai."
+    },
+    {
+      "id": "fake_traffic_fine",
+      "name": "Tin nhắn \"phạt nguội\" / nộp phạt giao thông giả",
+      "icon": "🚦",
+      "severity_weight": 0.85,
+      "keywords": [
+        "nộp phạt giao thông trước hạn",
+        "nộp phạt trước hạn",
+        "nộp phạt nguội qua link",
+        "thanh toán phạt nguội tại",
+        "vi phạm giao thông chưa nộp phạt",
+        "giảm 50% mức phạt",
+        "quá hạn nộp phạt sẽ",
+        "tăng mức phạt sau 48 giờ"
+      ],
+      "advice": "Cơ quan chức năng không gửi link qua tin nhắn để nộp phạt và không hỏi mật khẩu, mã OTP. Tự tra cứu vi phạm trong ứng dụng VNeID, VNeTraffic hoặc cổng dichvucong.gov.vn, hoặc đến trực tiếp cơ quan công an."
+    },
+    {
+      "id": "recovery_scam",
+      "name": "Hứa lấy lại tiền đã bị lừa (lừa lần hai)",
+      "icon": "🔁",
+      "severity_weight": 0.85,
+      "keywords": [
+        "hỗ trợ lấy lại tiền bị lừa",
+        "cam kết lấy lại tiền",
+        "lấy lại tiền cho nạn nhân",
+        "phí truy vết",
+        "truy vết dòng tiền",
+        "hỗ trợ truy vết",
+        "liên kết ngân hàng hỗ trợ",
+        "tư vấn ban đầu miễn phí",
+        "phí hồ sơ lấy lại tiền",
+        "thu hồi tiền bị lừa",
+        "hỗ trợ thu hồi tiền đã mất"
+      ],
+      "advice": "Không ai lấy lại tiền giúp bạn bằng cách thu phí trước. Viện kiểm sát, công an, tòa án không tư vấn, truy vết dòng tiền hay thu “phí hồ sơ” qua tin nhắn mạng xã hội. Hãy trình báo trực tiếp tại cơ quan công an và báo ngân hàng."
+    },
+    {
+      "id": "fake_bulk_order",
+      "name": "Nhờ mua hàng hộ / đặt hàng số lượng lớn rồi dụ chuyển cọc",
+      "icon": "🧾",
+      "severity_weight": 0.8,
+      "keywords": [
+        "cửa hàng yêu cầu chuyển khoản trước",
+        "chuyển khoản trước 30%",
+        "chuyển khoản trước 50%",
+        "mua hộ đơn vị",
+        "đặt hàng hộ đơn vị",
+        "mua hộ lô hàng",
+        "phục vụ công tác chuyên môn",
+        "chiết khấu nếu thanh toán"
+      ],
+      "advice": "Người lạ xưng là nhân viên cơ quan, bệnh viện, trường học nhờ “mua hàng hộ” rồi giới thiệu một cửa hàng đòi chuyển khoản trước: người nhờ và “cửa hàng” thường là cùng một nhóm. Hãy gọi số chính thức của cơ quan đó để xác minh trước khi chuyển tiền."
+    }
+  ],
+  "red_flag_signals": [
+    {
+      "id": "otp_request",
+      "pattern": "mã otp|mã xác thực|mã pin",
+      "weight": 0.35,
+      "label": "Yêu cầu cung cấp mã OTP / mã xác thực"
+    },
+    {
+      "id": "urgent_transfer",
+      "pattern": "chuyển khoản ngay|chuyển tiền gấp|chuyển khoản gấp",
+      "weight": 0.3,
+      "label": "Hối thúc chuyển tiền gấp"
+    },
+    {
+      "id": "legal_threat",
+      "pattern": "sẽ bị bắt|bị truy tố|xử lý hình sự|khởi tố",
+      "weight": 0.35,
+      "label": "Đe dọa pháp lý (bị bắt, truy tố...)"
+    },
+    {
+      "id": "secrecy_pressure",
+      "pattern": "không được nói với ai|giữ bí mật|không được kể",
+      "weight": 0.3,
+      "label": "Yêu cầu giữ bí mật, không cho nói với ai"
+    },
+    {
+      "id": "install_app",
+      "pattern": "cài đặt ứng dụng|tải app theo hướng dẫn|cài phần mềm",
+      "weight": 0.3,
+      "label": "Yêu cầu cài ứng dụng / phần mềm lạ"
+    },
+    {
+      "id": "link_click",
+      "pattern": "nhấn vào link|bấm vào đường link|truy cập link sau",
+      "weight": 0.25,
+      "label": "Dẫn bấm vào đường link lạ"
+    },
+    {
+      "id": "fee_upfront",
+      "pattern": "đóng phí trước|nộp phí để nhận|phí xử lý hồ sơ",
+      "weight": 0.25,
+      "label": "Đòi đóng phí trước"
+    },
+    {
+      "id": "task_deposit_scam",
+      "pattern": "nạp tiền để nhận nhiệm vụ|nạp tiền làm nhiệm vụ|nạp tiền nhận nhiệm vụ",
+      "weight": 0.3,
+      "label": "Đòi nạp tiền để nhận nhiệm vụ"
+    },
+    {
+      "id": "shipper_prepay",
+      "pattern": "chuyển khoản trước khi nhận hàng|thanh toán trước khi giao",
+      "weight": 0.3,
+      "label": "Đòi chuyển khoản trước khi giao hàng"
+    },
+    {
+      "id": "sim_lock_threat",
+      "pattern": "sẽ bị khóa|khóa số trong \\d+ giờ|khóa thuê bao|khóa sim",
+      "weight": 0.3,
+      "label": "Dọa khóa sim / thuê bao"
+    },
+    {
+      "id": "loan_disbursement_fee",
+      "pattern": "phí giải ngân|phí bảo hiểm khoản vay",
+      "weight": 0.3,
+      "label": "Đòi phí giải ngân / bảo hiểm khoản vay"
+    },
+    {
+      "id": "qr_code_scan",
+      "pattern": "quét mã qr|quét qr code|quét mã để nhận",
+      "weight": 0.25,
+      "label": "Yêu cầu quét mã QR"
+    },
+    {
+      "id": "foreign_customs_fee",
+      "pattern": "phí hải quan|phí thông quan",
+      "weight": 0.3,
+      "label": "Đòi phí hải quan / thông quan"
+    },
+    {
+      "id": "id_document_request",
+      "pattern": "gửi ảnh cccd|chụp hai mặt|ảnh căn cước|gửi cccd|cung cấp cccd|chụp cccd|gửi ảnh chứng minh|ảnh cmnd|hình cccd",
+      "weight": 0.3,
+      "label": "Đòi gửi ảnh CCCD / giấy tờ tùy thân"
+    },
+    {
+      "id": "credential_request",
+      "pattern": "cung cấp mật khẩu|đọc mật khẩu|gửi mật khẩu|cung cấp số thẻ|đọc số thẻ|gửi số thẻ|mã cvv|cung cấp mã cvv",
+      "weight": 0.35,
+      "label": "Đòi mật khẩu / số thẻ / mã CVV"
+    },
+    {
+      "id": "apk_install",
+      "pattern": "file apk|cài file apk|tải file apk|cài đặt file apk|\\.apk",
+      "weight": 0.35,
+      "label": "Yêu cầu cài file .apk ngoài cửa hàng ứng dụng"
+    },
+    {
+      "id": "personal_account_transfer",
+      "pattern": "vào tài khoản cá nhân|qua tài khoản cá nhân|sang tài khoản cá nhân",
+      "weight": 0.3,
+      "label": "Yêu cầu chuyển tiền vào tài khoản cá nhân (trường, cơ quan, doanh nghiệp thật thu qua tài khoản tổ chức)"
+    },
+    {
+      "id": "qr_login_verify",
+      "pattern": "quét mã qr[^.]{0,40}(đăng nhập|xác minh|cập nhật|nhận tiền|nhận hoàn|hoàn tiền|kích hoạt)",
+      "weight": 0.3,
+      "label": "Dẫn quét mã QR để đăng nhập / xác minh / nhận tiền"
+    },
+    {
+      "id": "refund_via_chat_app",
+      "pattern": "(kết bạn|kết nối|thêm|nhắn|liên hệ)[^.]{0,25}(zalo|telegram|facebook|messenger)[^.]{0,50}(hoàn tiền|thu hồi|bồi thường)",
+      "weight": 0.3,
+      "label": "Dẫn sang Zalo / Telegram để “hoàn tiền / thu hồi”"
+    }
+  ],
+  "risk_thresholds": {
+    "low_max": 0.35,
+    "medium_max": 0.7
+  },
+  "structure": {
+    "version": 1,
+    "window": 300,
+    "cap": 0.75,
+    "advice": "Tin này có cấu trúc giống lừa đảo: đừng làm theo người gửi. Hãy tự liên hệ kênh chính thức (số in trên thẻ, hóa đơn, ứng dụng chính thức) để kiểm tra, và hỏi người thân trước khi chuyển tiền hay đưa mã.",
+    "roles": {
+      "claim": {
+        "label": "xưng là cơ quan, tổ chức hoặc nhân viên",
+        "patterns": [
+          "\\b(tôi|em|mình|cháu|bên em|bên mình|bên tôi|chúng tôi) (là|bên|gọi từ|ở bên|làm bên|thuộc|đại diện)[^.;!?]{0,30}\\b(nhân viên|cán bộ|chuyên viên|kỹ thuật viên|tư vấn viên|luật sư|kế toán|trung tâm|tổng đài|phòng|bộ phận|ngân hàng|công ty|công an|cảnh sát|viện kiểm sát|tòa án|chi cục|bảo hiểm|điện lực|nhà mạng|bưu điện|bưu cục|sàn thương mại|sàn giao dịch)",
+          "\\b(đang nói chuyện với|đây là|tôi là|em là) (đại úy|thiếu tá|trung tá|thượng tá|đại tá|trung úy|thượng úy|thiếu úy|cán bộ|điều tra viên|kiểm sát viên|thẩm phán)",
+          "\\b(ngân hàng|tổng đài|trung tâm|công ty|phòng khám|phòng pháp chế|phòng nhân sự|bộ phận|ban quản lý|cơ quan|chi cục|cục thuế|viện kiểm sát|tòa án|công an|cảnh sát|bảo hiểm|điện lực|nhà mạng|nhà cung cấp|hãng bay|hãng hàng không|bưu cục|bưu điện|kho hàng|sàn giao dịch|sàn thương mại|trường đại học|trường|bệnh viện|tòa soạn|ví điện tử|nhân viên|cán bộ)[^.,;:!?]{0,40}(xin thông báo|thông báo|gọi báo|xin báo|báo (hộ|anh|chị|bạn|quý khách|ông|bà|em)|nhắc (quý khách|anh|chị|bạn))",
+          "\\b(ngân hàng|tổng đài|trung tâm|công ty|phòng khám|phòng pháp chế|phòng nhân sự|bộ phận|ban quản lý|cơ quan|chi cục|cục thuế|viện kiểm sát|tòa án|công an|cảnh sát|bảo hiểm|điện lực|nhà mạng|nhà cung cấp|hãng bay|hãng hàng không|bưu cục|bưu điện|kho hàng|sàn giao dịch|sàn thương mại|trường đại học|trường|bệnh viện|tòa soạn|ví điện tử|nhân viên|cán bộ)[^.,;:!?]{0,30}: ",
+          "\\bthông báo từ [^.,;:!?]{2,30}",
+          "^(?!thông báo|cảnh báo|lưu ý|tin tức|ghi chú|nhắc|chú ý)[a-z0-9]{2,20}( [a-z0-9]{2,12})?: ",
+          "\\b(shipper|nhân viên giao hàng|bên giao hàng) (đây|của|bên)"
+        ]
+      },
+      "threat": {
+        "label": "dọa hậu quả (khóa, cắt, phạt, kiện, mất tiền)",
+        "patterns": [
+          "\\b(sẽ|sắp|đã) bị (khóa|khoá|cắt|ngắt|ngừng|hủy|huỷ|thu hồi|xử phạt|phạt|khởi kiện|khởi tố|truy tố|bắt|tạm giam|vô hiệu hóa|đóng băng|đình chỉ)",
+          "\\bsẽ (khởi kiện|cắt|khóa|khoá|ngắt|hủy|huỷ|mất toàn bộ|lên trang|báo về)",
+          "\\b(sẽ|sắp) (bị )?(tự động )?trừ (tiền|phí|\\d)",
+          "\\bbị (hủy|huỷ|vô hiệu hóa|đóng băng|treo|ngắt|thu hồi|đăng nhập lạ)",
+          "\\bnếu không[^.;!?]{0,50}(sẽ|bị)",
+          "\\bkhông thì[^.;!?]{0,40}sẽ",
+          "\\bđể (tránh|không) bị",
+          "\\b(?:quá hạn|hết hiệu lực|sắp hết hạn|sắp bị|có lệnh bắt|lệnh tạm giam)",
+          "\\b(hải quan|sân bay|bưu điện|bưu cục)[^.;!?]{0,15}(đang )?(tạm )?giữ"
+        ]
+      },
+      "deadline": {
+        "label": "hối thúc, đặt hạn chót",
+        "patterns": [
+          "\\b(?:trong (ngày )?hôm nay|ngay hôm nay|nội trong hôm nay|trong (sáng|chiều|tối) nay|kết thúc hôm nay|hết hôm nay|lúc \\d{1,2}h hôm nay)",
+          "\\b(trước|sau|trong vòng|trong) \\d{1,2} ?(h|giờ|phút|tiếng)\\b",
+          {
+            "p": "\\b(thanh toán|chuyển|chuyển khoản|nộp|đóng|xác minh|cập nhật|liên hệ|xử lý|thực hiện|nạp|gia hạn|đóng viện phí \\d+ triệu) ngay\\b(?! \\d)",
+            "need": "ngay"
+          },
+          {
+            "p": "\\b(việc|cần|đền|chuyển|nộp|đóng|thanh toán|xử lý|liên hệ|thu hồi|chuyển tiền) gấp\\b",
+            "need": "gấp"
+          },
+          "\\b(?:ngay lập tức|càng sớm càng tốt|khẩn cấp|khẩn trương)"
+        ]
+      },
+      "ask_secret": {
+        "label": "đòi mã, mật khẩu, thông tin thẻ hoặc giấy tờ",
+        "request": true,
+        "patterns": [
+          "\\b(cung cấp|đọc|gửi|nhập|điền|chụp|khai báo|cho (em|tôi|mình) (biết|xin)|báo lại)[^.;!?]{0,40}(mã otp|mã xác thực|mã xác nhận|mã xác minh|mã pin|mã cvv|cvv|mã kích hoạt|mã \\d số|mã vừa gửi về|mã gửi về|mã được gửi về|mã hiện trên|dãy số gửi về|mật khẩu|số thẻ|thông tin thẻ|ảnh thẻ|thẻ ngân hàng|ngày hết hạn|thông tin đăng nhập|tên đăng nhập|căn cước|cccd|cmnd|ảnh chân dung|khuôn mặt)",
+          "\\b(đăng nhập|xác minh|xác thực)[^.;!?]{0,30}bằng (mật khẩu|số tài khoản|tài khoản ngân hàng|thẻ|thông tin thẻ|mã)",
+          "\\bđăng nhập (bằng |vào )?(số )?(tài khoản ngân hàng|internet banking)",
+          "\\b(mã otp|mã xác thực|mã xác nhận|mật khẩu|số thẻ|dãy số)[^.;!?]{0,35}(đọc|gửi|báo|cung cấp)( lại)? (cho|giúp) (em|tôi|mình|bên em|nhân viên|cán bộ)"
+        ]
+      },
+      "ask_money": {
+        "label": "đòi chuyển, nộp hoặc đóng tiền",
+        "request": true,
+        "patterns": [
+          {
+            "p": "\\b(anh|chị|bạn|em|quý khách|ông|bà|cô|chú|bác|bố|mẹ|ba|con|cháu|cư dân|phụ huynh|kế toán|vui lòng|hãy|phải|cần|yêu cầu|đề nghị|chỉ cần)[^.;!?]{0,25}\\b(chuyển khoản|chuyển tiền|nộp tiền|nộp phí|nạp tiền|đặt cọc|chuyển hết tiền|chuyển toàn bộ)",
+            "at": 2
+          },
+          {
+            "p": "\\b(anh|chị|bạn|em|quý khách|ông|bà|cô|chú|bác|bố|mẹ|ba|con|cháu|cư dân|phụ huynh|kế toán|vui lòng|hãy|phải|cần|yêu cầu|đề nghị|chỉ cần)[^.;!?]{0,25}\\b(đóng phí|đóng tiền|đóng viện phí|đóng trước)",
+            "need": "đóng",
+            "at": 2
+          },
+          "\\b(chuyển khoản|chuyển tiền|chuyển (trước|giúp|vào|lại|cho|hết|toàn bộ)|chuyển \\d|nộp trước|nộp giúp|nộp|thanh toán|nạp thêm|nạp|ứng trước|trả trước|mua bảo hiểm|đặt cọc)[^.;!?]{0,45}(phí|lệ phí|tiền|thuế|viện phí|\\d+ ?(k|tr|triệu|nghìn|ngàn|đ|đồng|vnd|%)|\\d{1,3}[.,]\\d{3}|vào (số )?tài khoản|tài khoản (sau|này|cá nhân|của em|của tôi|an toàn|tạm giữ|phong tỏa|kế toán|nhân viên|bác sĩ|mới|bạn em)|qua mã qr|bằng thẻ)",
+          {
+            "p": "\\b(đóng trước|đóng)[^.;!?]{0,30}(phí|tiền|viện phí|lệ phí|thuế|cọc)",
+            "need": "đóng"
+          },
+          {
+            "p": "\\bchuyển[^.;!?]{0,25}(phí|lệ phí|tiền|\\d+ ?(k|tr|triệu|nghìn|ngàn|đ|đồng|%))",
+            "need": "chuyển"
+          },
+          "\\b(không|ko) (chịu )?(chuyển|nộp|trả|đóng|thanh toán)[^.;!?]{0,35}\\bthì\\b"
+        ]
+      },
+      "ask_link": {
+        "label": "bảo bấm vào đường link hoặc nút trong tin nhắn",
+        "request": true,
+        "patterns": [
+          "\\b(bấm|nhấn|click|nhấp|truy cập|vào|mở|xác minh|xác nhận|cập nhật|khai báo|đăng ký|thanh toán|xem)[^.;!?]{0,30}(đường link|link|đường dẫn|website|trang web)",
+          "\\b(tại|theo|qua) (đường link|link|đường dẫn)",
+          "\\b(truy cập|bấm|nhấn|click|nhấp|vào)[^.;!?]{0,20}(https?://|www\\.|[a-z0-9-]+\\.(com|vn|net|org|xyz|top|info|cc|vip|site|online|club|link|app|ly|me|io)\\b)",
+          {
+            "p": "\\b(bấm|nhấn|nhấp|chạm)( vào)? nút[^.;!?]{0,30}(xác minh|xác nhận|xác thực|cập nhật|kích hoạt|đăng nhập|bên dưới|dưới đây|phía dưới)",
+            "need": "nút"
+          }
+        ]
+      },
+      "ask_install": {
+        "label": "bảo cài ứng dụng, chia sẻ màn hình hoặc làm theo hướng dẫn",
+        "request": true,
+        "patterns": [
+          "\\b(cài đặt|cài)[^.;!?]{0,25}(ứng dụng|app|phần mềm|apk)",
+          {
+            "p": "\\btải (ứng dụng|app|phần mềm|về|xuống|file)",
+            "need": "tải"
+          },
+          "\\b(?:chia sẻ màn hình|điều khiển từ xa|hỗ trợ từ xa|làm theo hướng dẫn|theo hướng dẫn của (cán bộ|nhân viên|em|kỹ thuật))"
+        ]
+      },
+      "ask_qr": {
+        "label": "bảo quét mã QR",
+        "request": true,
+        "patterns": [
+          "\\b(?:quét (mã )?qr|mã qr (bên dưới|này|sau|em gửi)|qua mã qr)"
+        ]
+      },
+      "ask_channel": {
+        "label": "kéo sang Zalo, Telegram hoặc kênh riêng",
+        "request": true,
+        "patterns": [
+          "\\b(kết bạn|kết nối|liên hệ|nhắn|inbox|add)[^.;!?]{0,20}(zalo|telegram|tele|messenger|viber|facebook)",
+          "\\b(vào|tham gia) (nhóm|group)[^.;!?]{0,15}(zalo|telegram|tele|messenger|viber|facebook|chăm sóc|hỗ trợ)",
+          "\\b(zalo|telegram) (của )?(nhân viên|cán bộ|tư vấn viên|kỹ thuật)"
+        ]
+      },
+      "ask_secrecy": {
+        "label": "bắt giữ bí mật hoặc không cho gọi lại để kiểm tra",
+        "negatable": false,
+        "patterns": [
+          "\\b(không|đừng) (được )?(nói|báo|kể|tiết lộ)[^.;!?]{0,20}(với ai|cho ai|người nhà|gia đình|người thân|bất kỳ ai|ai biết)",
+          "\\b(?:giữ (bí mật|kín)|ra chỗ vắng|chỗ không có người)",
+          "\\b(?:(đừng|không) gọi( lại)?\\b|không tiện nghe|không nghe máy được|không (được )?cúp máy)"
+        ]
+      },
+      "distress": {
+        "label": "kể chuyện khẩn cấp của người thân",
+        "patterns": [
+          "\\b(?:cấp cứu|tai nạn|nhập viện|viện phí|bị tạm giữ|kẹt việc|kẹt tiền|làm hỏng|phải đền|có việc gấp|gặp chuyện)",
+          {
+            "p": "\\bđang mổ\\b",
+            "need": "mổ"
+          }
+        ]
+      },
+      "new_contact": {
+        "label": "báo đổi số, mượn máy người khác",
+        "patterns": [
+          "\\b(?:đổi số( mới)?\\b|số mới (của|rồi)|mượn máy|máy (em|con|cháu) (hỏng|hết pin|mất)|sim (em|con|cháu) (hỏng|mất))",
+          "\\b(điện thoại|máy|sim) (của )?(con|em|cháu|anh|chị|mình) (bị )?(rơi|hỏng|vỡ|mất|hư|hết pin)",
+          "\\b(?:dùng tạm (số|máy)|số tạm|số (mới|tạm) này|lưu số (mới|này))"
+        ]
+      },
+      "lure": {
+        "label": "hứa lợi ích (trúng thưởng, hoàn tiền, việc nhẹ, vay dễ)",
+        "patterns": [
+          "\\b(?:chúc mừng|trúng (thưởng|giải|tuyển)|khách hàng may mắn|may mắn (nhận|được))",
+          {
+            "p": "\\b(tặng|được tặng)[^.;!?]{0,30}(quà|thưởng|voucher|học bổng|ưu đãi|miễn phí)",
+            "need": "tặng"
+          },
+          {
+            "p": "\\b(nhận|được nhận)[^.;!?]{0,30}(quà|thưởng|voucher|học bổng|trợ cấp|hoàn tiền|bồi thường|tiền hoàn)",
+            "need": "nhận"
+          },
+          "\\bđược (duyệt|chọn)[^.;!?]{0,30}(khoản vay|hoàn tiền|ưu đãi|nhận)",
+          {
+            "p": "\\b(gửi|tặng)[^.;!?]{0,30}(vali quà|kiện quà|quà (và|từ))",
+            "need": "quà"
+          },
+          {
+            "p": "\\b(gửi|tặng|chuyển)[^.;!?]{0,30}\\d+ (nghìn|triệu) đô\\b",
+            "need": "đô"
+          },
+          "\\b(gửi|tặng|chuyển)[^.;!?]{0,30}(\\d+ (nghìn|triệu) usd\\b|đô la|ngoại tệ)",
+          "\\b(?:miễn phí|hoàn tiền|hoàn vé|bồi thường|hoa hồng|lãi (suất )?(cao|\\d)|có lãi \\d|lương \\d|không cần (bằng cấp|thế chấp|kinh nghiệm|thủ tục|giấy tờ|có mặt)|lấy ngay trong ngày|lấy lại (số )?tiền|nâng hạn mức|việc nhẹ|nhận tiền trong ngày|\\d+k một ngày)",
+          "\\b(?:vay nhanh|vay (tiền )?online|giải ngân (nhanh|sau|trong)|duyệt (vay|hồ sơ) (nhanh|trong)|chỉ cần (căn cước|cccd))",
+          "\\b(?:truy vết|bảo vệ quyền lợi|hỗ trợ (người|nạn nhân) bị lừa|thu hồi (số )?tiền (bị lừa|đã mất))"
+        ]
+      },
+      "extort": {
+        "label": "dọa phát tán hình ảnh, thông tin riêng tư",
+        "patterns": [
+          "\\b(?:phát tán|bêu rếu|bóc phốt)",
+          {
+            "p": "\\btung[^.;!?]{0,25}lên (mạng|facebook|zalo|tiktok|nhóm|các hội nhóm)",
+            "need": "tung"
+          },
+          {
+            "p": "\\b(sẽ|thì|là) (được |bị )?(tao |tôi |bọn tao |chúng tôi |tụi tao )?(gửi)[^.;!?]{0,15}cho (cả |toàn bộ |tất cả )?(gia đình|bạn bè|người thân|đồng nghiệp|công ty|cơ quan|vợ|chồng|bố mẹ|danh bạ|mọi người)",
+            "need": "gửi",
+            "at": 4
+          },
+          {
+            "p": "\\bảnh (nóng|nhạy cảm|khỏa thân|khoả thân|đồi trụy) của",
+            "need": "ảnh"
+          },
+          "\\b(video|clip|hình ảnh) (nóng|nhạy cảm|khỏa thân|khoả thân|đồi trụy)"
+        ]
+      },
+      "receipt": {
+        "label": "tin báo giao dịch đã thực hiện (biến động số dư)",
+        "negatable": false,
+        "patterns": [
+          "(?:^|[ :|(])[+-] ?\\d[\\d.,]{2,}",
+          "\\b(?:sd|số dư)(?: cuối| hiện tại| khả dụng| ví| tk)?:? ?\\d",
+          "\\bgd:? ?[+-]|\\bbiến động số dư",
+          "(?<!sẽ )\\b(?:bị trừ|được cộng|ghi nợ|ghi có) [+-]?\\d"
+        ]
+      },
+      "safe_channel": {
+        "label": "hướng dẫn qua kênh chính thức",
+        "patterns": [
+          "\\b(trên|qua|tại|trong|bằng) (ứng dụng|app)\\b",
+          "\\b(?:tại quầy|ở quầy|quầy giao dịch|quầy thanh toán|điểm giao dịch|điểm thu|tại văn phòng|tại cửa hàng|tại trụ sở|tại chi nhánh|trực tiếp tại)",
+          "\\b(?:ch play|app store|kho ứng dụng|ứng dụng chính thức|kênh chính thức)|\\.gov\\.vn",
+          "\\btiền mặt\\b"
+        ]
+      }
+    },
+    "rules": [
+      {
+        "id": "claim_secret",
+        "all": [
+          "claim"
+        ],
+        "any": [
+          "ask_secret"
+        ],
+        "weight": 0.45,
+        "label": "Xưng là tổ chức rồi đòi mã, mật khẩu, thông tin thẻ hoặc giấy tờ"
+      },
+      {
+        "id": "claim_money",
+        "all": [
+          "claim"
+        ],
+        "any": [
+          "ask_money"
+        ],
+        "unless": [
+          "safe_channel",
+          "receipt"
+        ],
+        "weight": 0.4,
+        "label": "Xưng là tổ chức rồi đòi chuyển / nộp tiền"
+      },
+      {
+        "id": "claim_action",
+        "all": [
+          "claim"
+        ],
+        "any": [
+          "ask_link",
+          "ask_install",
+          "ask_qr"
+        ],
+        "weight": 0.35,
+        "label": "Xưng là tổ chức rồi bảo bấm link, quét mã QR hoặc cài ứng dụng"
+      },
+      {
+        "id": "threat_ask",
+        "all": [
+          "threat"
+        ],
+        "any": [
+          "ask_secret",
+          "ask_link",
+          "ask_install",
+          "ask_qr",
+          "ask_channel"
+        ],
+        "weight": 0.4,
+        "label": "Dọa hậu quả để bạn đưa mã, bấm link, cài ứng dụng hoặc sang kênh riêng"
+      },
+      {
+        "id": "threat_money",
+        "all": [
+          "threat"
+        ],
+        "any": [
+          "ask_money"
+        ],
+        "unless": [
+          "safe_channel",
+          "receipt"
+        ],
+        "weight": 0.3,
+        "label": "Dọa hậu quả để đòi tiền"
+      },
+      {
+        "id": "deadline_ask",
+        "all": [
+          "deadline"
+        ],
+        "any": [
+          "ask_secret",
+          "ask_link",
+          "ask_install",
+          "ask_qr",
+          "ask_channel"
+        ],
+        "weight": 0.25,
+        "label": "Hối thúc để bạn làm theo ngay"
+      },
+      {
+        "id": "deadline_money",
+        "all": [
+          "deadline"
+        ],
+        "any": [
+          "ask_money"
+        ],
+        "unless": [
+          "safe_channel",
+          "receipt"
+        ],
+        "weight": 0.25,
+        "label": "Hối thúc để đòi tiền"
+      },
+      {
+        "id": "pay_via_link",
+        "all": [
+          "ask_link"
+        ],
+        "any": [
+          "ask_money",
+          "ask_secret"
+        ],
+        "weight": 0.4,
+        "label": "Bảo trả tiền hoặc nhập mã / thông tin thẻ qua đường link"
+      },
+      {
+        "id": "install_then_give",
+        "all": [
+          "ask_install"
+        ],
+        "any": [
+          "ask_money",
+          "ask_secret"
+        ],
+        "weight": 0.4,
+        "label": "Bảo cài ứng dụng rồi nhập thông tin thẻ, mã hoặc nạp tiền"
+      },
+      {
+        "id": "lure_pay",
+        "all": [
+          "lure"
+        ],
+        "any": [
+          "ask_money",
+          "ask_secret"
+        ],
+        "weight": 0.4,
+        "label": "Hứa lợi ích rồi đòi tiền hoặc thông tin trước"
+      },
+      {
+        "id": "lure_action",
+        "all": [
+          "lure"
+        ],
+        "any": [
+          "ask_link",
+          "ask_install",
+          "ask_qr",
+          "ask_channel"
+        ],
+        "weight": 0.3,
+        "label": "Hứa lợi ích rồi bảo bấm link, cài ứng dụng hoặc sang kênh riêng"
+      },
+      {
+        "id": "secrecy_ask",
+        "all": [
+          "ask_secrecy"
+        ],
+        "any": [
+          "ask_money",
+          "ask_secret"
+        ],
+        "weight": 0.3,
+        "label": "Đòi tiền / mã kèm yêu cầu giữ bí mật, không gọi lại kiểm tra"
+      },
+      {
+        "id": "distress_money",
+        "all": [
+          "distress"
+        ],
+        "any": [
+          "ask_money"
+        ],
+        "weight": 0.35,
+        "label": "Kể chuyện khẩn cấp rồi nhờ chuyển tiền (hãy gọi lại số cũ để xác minh)"
+      },
+      {
+        "id": "extort_money",
+        "all": [
+          "extort"
+        ],
+        "any": [
+          "ask_money"
+        ],
+        "weight": 0.45,
+        "label": "Dọa phát tán hình ảnh, thông tin riêng tư để đòi tiền (đừng chuyển — hãy lưu bằng chứng và báo công an)"
+      },
+      {
+        "id": "newcontact_money",
+        "all": [
+          "new_contact"
+        ],
+        "any": [
+          "ask_money"
+        ],
+        "weight": 0.4,
+        "label": "Báo đổi số / mượn máy rồi nhờ chuyển tiền (hãy gọi lại số cũ để xác minh)"
+      },
+      {
+        "id": "channel_shift",
+        "all": [
+          "ask_channel"
+        ],
+        "any": [
+          "claim",
+          "ask_money"
+        ],
+        "weight": 0.2,
+        "label": "Kéo bạn sang Zalo / Telegram riêng để xử lý"
+      }
+    ],
+    "suppress": [
+      "\\b(kẻ gian|đối tượng|các đối tượng|kẻ xấu|kẻ lừa đảo|bọn lừa đảo|tội phạm)[^.;!?]{0,25}(yêu cầu|gọi|gửi|dụ|giả|mạo|tự xưng|hướng dẫn|nhắn|lừa|thường|hay|sẽ|đã|dọa|đe dọa|tống tiền|cắt ghép|ghép)",
+      "\\b(yêu cầu|dụ|lừa|ép|hướng dẫn) (người dân|nạn nhân|bị hại|người nghe|người dùng|khách hàng|con mồi)",
+      "\\b(?:triệt phá|chiếm đoạt|bắt giữ|khởi tố (bị can|vụ án|đối tượng)|thủ đoạn|chiêu trò|công an (cảnh báo|khuyến cáo)|khuyến cáo người dân)",
+      "\\b(thì|hãy|cứ|nhớ|nên) (cúp máy|tắt máy|chặn số|báo công an|bỏ qua)",
+      "\\bđừng (tin|làm theo|nghe theo|chuyển|bấm|đọc|cung cấp)",
+      "\\b(?:kẻo bị lừa|bị lừa đấy|lừa đảo đấy|là lừa đảo|coi chừng bị lừa|kẻo bị tống tiền|bị tống tiền đấy)"
+    ]
+  },
+  "community": {
+    "_ghi_chu": "Cụm từ lặp lại trong BÁO CÁO CỦA NGƯỜI DÙNG, do tools/report_pipeline.py tự đưa vào và tự gỡ sau 6 tháng không còn báo cáo. CHƯA kiểm chứng: app chỉ nâng tin lên tối đa mức 'cần cảnh giác' và nói rõ có thể là báo cáo sai. Đừng sửa tay.",
+    "advice": "Tin giống thế này đã bị người dùng khác báo cáo. Chưa chắc là lừa đảo, nhưng hãy thận trọng: đừng bấm link, đừng chuyển tiền hay đọc mã OTP theo tin này; tự liên hệ kênh chính thức (số trên thẻ, hóa đơn, ứng dụng chính thức) để kiểm tra.",
+    "phrases": []
+  }
+}

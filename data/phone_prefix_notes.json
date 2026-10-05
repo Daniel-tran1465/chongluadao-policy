@@ -1,0 +1,18 @@
+{
+  "data_version": 1,
+  "_ghi_chu": "Ghi chú THAM KHẢO về đầu số nước ngoài hay bị cảnh báo. KHÔNG làm tăng điểm rủi ro (số nước ngoài vốn đã ở mức 'cần cảnh giác'); chỉ bổ sung lời giải thích khi người dùng kiểm tra số thuộc đầu số này. Mỗi mục là nhận định của nguồn được ghi, KHÔNG phải kết luận rằng mọi cuộc gọi từ nước đó là lừa đảo. Không đưa đầu số trong nước (024, 028, 1900) vào đây vì đó là số hợp lệ được nhiều tổ chức thật sử dụng — đưa vào sẽ báo nhầm.",
+  "source": "CyStack Blog, 'Các đầu số điện thoại lừa đảo', tác giả Mộng Kha, đăng 29/06/2026",
+  "source_url": "https://cystack.net/vi/blog/cac-dau-so-dien-thoai-lua-dao",
+  "as_of": "2026-06-29",
+  "prefixes": [
+    {"prefix": "+224", "country": "Guinea", "note": "được cảnh báo hay dùng chiêu “nhá máy” (Wangiri): đổ chuông rất ngắn để dụ bạn gọi lại. Đừng gọi lại số lạ."},
+    {"prefix": "+231", "country": "Liberia", "note": "được cảnh báo hay giả tổ chức quốc tế để báo trúng thưởng."},
+    {"prefix": "+232", "country": "Sierra Leone", "note": "được cảnh báo hay gọi tự động quảng cáo dịch vụ tài chính giả."},
+    {"prefix": "+252", "country": "Somalia", "note": "được cảnh báo hay gọi nhiều lần vào ban đêm để dụ bạn gọi lại."},
+    {"prefix": "+370", "country": "Lithuania", "note": "được cảnh báo hay giả hỗ trợ kỹ thuật, báo thiết bị của bạn bị xâm nhập."},
+    {"prefix": "+371", "country": "Latvia", "note": "được cảnh báo hay dùng kịch bản lừa đầu tư tiền số, chứng khoán."},
+    {"prefix": "+563", "country": "Chile", "note": "được cảnh báo hay dùng kịch bản người thân gặp nạn, đòi chuyển tiền gấp."},
+    {"prefix": "+1876", "country": "Jamaica", "note": "được cảnh báo hay báo trúng xổ số giả rồi đòi phí xử lý."},
+    {"prefix": "+7", "country": "Nga/Kazakhstan", "note": "được cảnh báo hay dùng chiêu chiếm đoạt tài khoản mạng xã hội."}
+  ]
+}

@@ -1,0 +1,384 @@
+{
+  "data_version": 10,
+  "_ghi_chu": "tips = lời khuyên do nhóm tự soạn (không nêu số liệu). stats = số liệu/nhận định CÓ NGUỒN: chỉ đưa vào khi đã đọc bài gốc, bắt buộc có source, source_url, as_of. Không bịa số liệu.",
+  "tips": [
+    {
+      "id": "otp",
+      "title": "Mã OTP là chìa khóa tiền của bạn",
+      "text": "Không ai — kể cả nhân viên ngân hàng — có quyền hỏi mã OTP của bạn. Ai đòi OTP qua điện thoại hay tin nhắn đều là lừa đảo."
+    },
+    {
+      "id": "callback",
+      "title": "Cúp máy, tự gọi lại",
+      "text": "Nhận cuộc gọi tự xưng ngân hàng hay cơ quan chức năng? Hãy cúp máy, tự tra số hotline chính thức rồi gọi lại. Đừng gọi lại đúng số vừa gọi cho bạn."
+    },
+    {
+      "id": "police",
+      "title": "Công an không làm việc qua điện thoại",
+      "text": "Cơ quan công an không yêu cầu chuyển tiền hay xác minh tài khoản qua điện thoại. Nghe nhắc tới “lệnh bắt”, “vụ án” qua điện thoại thì hãy cúp máy."
+    },
+    {
+      "id": "urgency",
+      "title": "Bị hối thúc là dấu hiệu lừa đảo",
+      "text": "Kẻ gian luôn bắt bạn quyết định gấp và giữ bí mật. Hãy dừng lại, hỏi người thân trước khi làm bất cứ điều gì liên quan đến tiền."
+    },
+    {
+      "id": "apk",
+      "title": "Chỉ cài ứng dụng từ kho chính thức",
+      "text": "Không cài file .apk hay ứng dụng theo link lạ, kể cả khi người “hỗ trợ” hướng dẫn từng bước. Đó là cách kẻ gian chiếm điện thoại của bạn."
+    },
+    {
+      "id": "link",
+      "title": "Nhìn kỹ tên miền trước khi bấm",
+      "text": "Link giả thường chỉ khác một ký tự (vietcornbank thay vì vietcombank) hoặc dùng đuôi lạ như .xyz, .top. Hãy tự gõ địa chỉ ngân hàng thay vì bấm link."
+    },
+    {
+      "id": "relative",
+      "title": "Người thân nhắn mượn tiền?",
+      "text": "Hãy gọi trực tiếp vào số cũ hoặc gọi video để xác minh. Tài khoản Zalo, Facebook của người thân có thể đã bị chiếm."
+    },
+    {
+      "id": "deepfake",
+      "title": "Giọng nói và khuôn mặt cũng có thể giả",
+      "text": "AI có thể giả giọng và khuôn mặt. Nghi ngờ thì hỏi một câu chỉ người thật mới biết, hoặc gọi lại bằng số quen thuộc."
+    },
+    {
+      "id": "job",
+      "title": "Việc nhẹ lương cao là bẫy",
+      "text": "Ai bảo bạn nạp tiền để “nhận nhiệm vụ”, “tăng đơn” đều là lừa đảo. Việc làm thật không thu tiền của người lao động."
+    },
+    {
+      "id": "invest",
+      "title": "Lãi cao, cam kết không rủi ro?",
+      "text": "Đầu tư nào cam kết lãi cao, rút tiền dễ, có “chuyên gia” kèm miễn phí đều đáng nghi. Chỉ đầu tư ở đơn vị được cấp phép."
+    },
+    {
+      "id": "shipper",
+      "title": "Đơn hàng bạn không đặt",
+      "text": "Shipper gọi giao đơn bạn không đặt, đòi chuyển khoản trước hoặc quét QR? Đừng làm theo. Hãy kiểm tra đơn trong app của sàn."
+    },
+    {
+      "id": "prize",
+      "title": "Trúng thưởng mà phải đóng phí?",
+      "text": "Giải thưởng thật không thu phí nhận thưởng. Bạn chưa tham gia mà “trúng” thì càng phải nghi ngờ."
+    },
+    {
+      "id": "twofa",
+      "title": "Bật xác thực 2 lớp",
+      "text": "Bật xác thực 2 lớp cho ngân hàng, email, Zalo, Facebook. Kể cả khi lộ mật khẩu, kẻ gian cũng khó vào tài khoản của bạn."
+    },
+    {
+      "id": "limit",
+      "title": "Đặt hạn mức giao dịch",
+      "text": "Hạ hạn mức chuyển tiền trong app ngân hàng xuống vừa đủ dùng. Nếu lỡ bị lừa, thiệt hại cũng bị giới hạn."
+    },
+    {
+      "id": "balance_alert",
+      "title": "Bật thông báo biến động số dư",
+      "text": "Nhờ đó bạn biết ngay khi có giao dịch lạ và kịp gọi ngân hàng để phong tỏa."
+    },
+    {
+      "id": "cccd",
+      "title": "Ảnh CCCD là tài sản nhạy cảm",
+      "text": "Đừng gửi ảnh CCCD hay ảnh chân dung cầm giấy tờ cho người lạ. Kẻ gian dùng chúng để mở tài khoản, vay tiền dưới tên bạn."
+    },
+    {
+      "id": "password",
+      "title": "Mỗi tài khoản một mật khẩu",
+      "text": "Dùng mật khẩu khác nhau cho ngân hàng, email, mạng xã hội. Lộ một nơi không kéo theo mất tất cả."
+    },
+    {
+      "id": "elderly",
+      "title": "Hãy nói chuyện với ông bà, cha mẹ",
+      "text": "Người lớn tuổi hay bị nhắm tới. Dành 5 phút chỉ cho họ cách cúp máy khi có cuộc gọi lạ đòi tiền hay mã OTP."
+    },
+    {
+      "id": "report",
+      "title": "Đừng im lặng nếu bị lừa",
+      "text": "Báo ngay ngân hàng để phong tỏa và báo cơ quan công an. Càng báo sớm càng có cơ hội ngăn dòng tiền."
+    },
+    {
+      "id": "recovery",
+      "title": "Ai hứa lấy lại tiền giúp bạn?",
+      "text": "Đó thường là kẻ lừa đảo lần hai. Đừng trả phí cho bất kỳ ai hứa “lấy lại tiền”; hãy làm việc trực tiếp với ngân hàng và công an."
+    },
+    {
+      "id": "romance",
+      "title": "Chưa gặp mặt đã nhờ chuyển tiền",
+      "text": "Người quen qua mạng nhờ trả phí hải quan, phí nhận quà hay vay tiền gấp đều là dấu hiệu lừa tình. Đừng chuyển tiền."
+    },
+    {
+      "id": "qr",
+      "title": "Cẩn thận mã QR lạ",
+      "text": "Mã QR dán nơi công cộng có thể dẫn tới trang giả. Chỉ quét QR từ nguồn bạn tin tưởng và kiểm tra tên người nhận trước khi thanh toán."
+    },
+    {
+      "id": "screenshare",
+      "title": "Không chia sẻ màn hình cho người lạ",
+      "text": "Người “hỗ trợ” bảo bạn chia sẻ màn hình hay cài phần mềm điều khiển từ xa là chiêu để nhìn thấy mã OTP và chiếm tài khoản."
+    },
+    {
+      "id": "loan",
+      "title": "Vay online đòi phí giải ngân",
+      "text": "Khoản vay thật không thu phí giải ngân trước. Đòi đóng phí rồi mới giải ngân là dấu hiệu lừa đảo."
+    },
+    {
+      "id": "cardchip",
+      "title": "Quẹt thẻ ngân hàng nơi lạ, đừng rời mắt",
+      "text": "Công an từng cảnh báo có đối tượng lợi dụng lúc bạn sơ ý để tráo chip thẻ vật lý khi thanh toán. Hãy tự cầm thẻ quẹt hoặc để ý sát nhân viên, và bật thông báo biến động số dư để phát hiện sớm giao dịch lạ."
+    },
+    {
+      "id": "landid",
+      "title": "Giấy mời về đất đai gửi qua Zalo? Cẩn thận",
+      "text": "Có kẻ giả UBND hoặc Sở Nông nghiệp và Môi trường, gửi giấy mời về “mã định danh tài sản/thửa đất” rồi dụ cài file .apk giả mạo dịch vụ công. Cơ quan nhà nước không mời làm việc qua Zalo/Facebook và không yêu cầu cài app ngoài kho ứng dụng chính thức."
+    },
+    {
+      "id": "recall",
+      "title": "Báo “thu hồi đơn hàng lỗi” để hoàn tiền?",
+      "text": "Kẻ gian có thể biết đúng món bạn vừa mua (do dữ liệu bị lộ) rồi giả sàn, hãng hoặc bên giao hàng báo phải thu hồi gấp. Hãng thật không bắt bạn bấm link lạ, nhập OTP hay đóng phí để được hoàn tiền — hãy kiểm tra trong ứng dụng mua sắm chính thức."
+    },
+    {
+      "id": "schoolfee",
+      "title": "Đóng học phí: chỉ qua kênh của trường",
+      "text": "Mùa tựu trường, kẻ gian lập trang giả trường học, đổi số tài khoản hoặc mã QR và hối “kẻo mất suất”. Chỉ nộp học phí qua tài khoản đứng tên trường hoặc cổng thanh toán trường đã thông báo; nghi ngờ thì gọi thẳng văn phòng trường."
+    },
+    {
+      "id": "sodo",
+      "title": "Không có chuyện “số hóa sổ đỏ” qua điện thoại",
+      "text": "Người tự xưng cán bộ địa chính báo sổ đỏ “dữ liệu lỗi”, “chưa đồng bộ” rồi gửi link hoặc file cài đặt là dấu hiệu lừa đảo. Thủ tục đất đai làm trực tiếp tại cơ quan có thẩm quyền, không qua ứng dụng lạ."
+    },
+    {
+      "id": "coin",
+      "title": "“Đồng coin sắp lên sàn quốc tế”?",
+      "text": "Kẻ gian mời vào nhóm Telegram, Zalo, TikTok, hứa một đồng tiền số “sắp niêm yết trên sàn quốc tế” sẽ tăng giá gấp nhiều lần. Thực chất chúng mua rẻ đồng coin vô giá trị rồi bán lại cho bạn với giá cao. Đừng đầu tư theo lời mời từ người lạ trong nhóm chat."
+    },
+    {
+      "id": "voicesample",
+      "title": "Cuộc gọi lạ cứ hỏi vu vơ, bắt bạn nói nhiều?",
+      "text": "Kẻ gian có thể gọi chỉ để ghi âm giọng bạn, rồi dùng AI giả giọng đó gọi cho người thân vay tiền. Với số lạ, nói ngắn gọn, đừng trả lời những câu như “có phải…không?” và cúp máy nếu thấy bất thường. Dặn người nhà luôn gọi lại số quen để xác minh."
+    },
+    {
+      "id": "bankrent",
+      "title": "“Mở tài khoản nhận hoa hồng” là bẫy",
+      "text": "Kẻ gian rủ học sinh, sinh viên mở tài khoản ngân hàng, xác thực khuôn mặt hộ để nhận vài trăm nghìn. Tài khoản đó sẽ bị dùng nhận tiền lừa đảo, rửa tiền — người đứng tên có thể bị phong tỏa tài khoản và bị xử lý. Không cho thuê, cho mượn, bán tài khoản dưới mọi hình thức."
+    },
+    {
+      "id": "govdomain",
+      "title": "Trang cơ quan nhà nước thật có đuôi .gov.vn",
+      "text": "Kẻ gian dựng trang thuế, dịch vụ công giả với tên na ná như “…gov.com”, hiện đúng thông tin doanh nghiệp của bạn để lấy lòng tin rồi dẫn quét mã QR, xác thực khuôn mặt. Nhìn kỹ đuôi địa chỉ: trang thật luôn kết thúc bằng .gov.vn."
+    },
+    {
+      "id": "scratchcard",
+      "title": "Livestream bán “vé cào trúng thưởng”",
+      "text": "Công an từng triệt phá nhóm mua lại fanpage đông người theo dõi, đổi tên thành trang vé số, livestream bán combo vé cào in sẵn kết quả trúng và dùng tài khoản ảo khoe trúng lớn. Không mua vé số, vé cào qua mạng xã hội."
+    },
+    {
+      "id": "trafficfine",
+      "title": "Tin nhắn “phạt nguội” kèm link là giả",
+      "text": "Kẻ gian nhắn “nộp phạt giao thông trước hạn”, hứa giảm một nửa tiền phạt nếu nộp ngay hoặc dọa tăng mức phạt sau 48 giờ, kèm link trang dịch vụ công giả. Không bấm link — tự tra cứu vi phạm trong ứng dụng VNeID, VNeTraffic hoặc cổng dichvucong.gov.vn."
+    },
+    {
+      "id": "savings",
+      "title": "Gói tiết kiệm lãi 15–20%/năm? Cẩn thận",
+      "text": "Kẻ gian lập trang web, tài khoản mạng xã hội giả ngân hàng, gọi mời gửi tiết kiệm lãi rất cao, rồi bắt chuyển tiền vào tài khoản cá nhân hoặc cài ứng dụng lạ. Chỉ gửi tiết kiệm tại quầy hoặc trong ứng dụng chính thức của ngân hàng."
+    },
+    {
+      "id": "fakepolice_loan",
+      "title": "“Công an” bảo vay tiền qua app rồi chuyển đi",
+      "text": "Kẻ gian giả công an qua Zalo, dọa bạn liên quan vụ án rồi hướng dẫn vay tiền qua ứng dụng và chuyển hết cho chúng để “chứng minh trong sạch”. Công an không bao giờ yêu cầu người dân vay tiền hay chuyển tiền vào tài khoản nào."
+    },
+    {
+      "id": "utility_meter",
+      "title": "“Nhân viên điện lực” đến nhà đòi tiền thay công tơ?",
+      "text": "Kẻ gian mặc đồng phục có logo ngành điện, nói thay công tơ điện tử rồi đòi “phí mua công tơ”, “phí lắp đặt” hoặc tiền đặt cọc. Đừng trả tiền ngay; gọi tổng đài in trên hóa đơn tiền điện hoặc đến điểm giao dịch của điện lực để hỏi lại."
+    },
+    {
+      "id": "utility_call",
+      "title": "Cuộc gọi báo “nợ tiền điện, cập nhật hợp đồng”",
+      "text": "Kẻ gian báo nợ tiền điện, thanh toán chưa thành công hay hợp đồng cần đồng bộ, rồi xin ảnh căn cước, bảo quét QR hoặc cài ứng dụng. Hãy tra hóa đơn trong ứng dụng chính thức của điện lực, đừng làm theo người gọi."
+    },
+    {
+      "id": "qr_sticker",
+      "title": "Mã QR thanh toán có thể bị dán đè",
+      "text": "Kẻ gian dán mã QR giả đè lên mã thật ở cửa hàng, bãi giữ xe, điểm quyên góp. Trước khi bấm chuyển, hãy đối chiếu TÊN người nhận trên ứng dụng ngân hàng; người bán nên kiểm tra tiền đã thật sự vào tài khoản."
+    },
+    {
+      "id": "recovery_page",
+      "title": "Trang “hỗ trợ lấy lại tiền” cũng có thể là bẫy",
+      "text": "Có trang mạng xã hội đăng toàn bài cảnh báo lừa đảo để lấy lòng tin, rồi mời nhắn tin riêng nhận “tư vấn miễn phí”, “truy vết dòng tiền” và thu “phí hồ sơ”. Cơ quan tố tụng không làm việc và không thu phí qua tin nhắn mạng xã hội."
+    },
+    {
+      "id": "land_data",
+      "title": "“Làm sạch dữ liệu đất đai” qua điện thoại?",
+      "text": "Kẻ gian giả cán bộ địa chính, văn phòng đăng ký đất đai hoặc thuế, xin ảnh căn cước, sổ đỏ, bảo cài ứng dụng “cập nhật dữ liệu” và đòi phí. Hãy đến UBND xã, phường hoặc văn phòng đăng ký đất đai để hỏi trực tiếp."
+    },
+    {
+      "id": "bulk_order",
+      "title": "Người lạ nhờ mua hàng hộ số lượng lớn",
+      "text": "Người xưng là nhân viên cơ quan, bệnh viện, trường học nhờ mua hộ rồi giới thiệu sẵn một cửa hàng đòi chuyển khoản trước. Người nhờ và cửa hàng thường là cùng một nhóm. Hãy gọi số chính thức của cơ quan đó để hỏi lại."
+    },
+    {
+      "id": "admin_call",
+      "title": "Cán bộ gọi “hướng dẫn thủ tục” rồi bảo chuyển tiền",
+      "text": "Công an không yêu cầu chuyển tiền qua điện thoại để “phục vụ điều tra”, “chứng minh tài sản” hay “chứng minh không liên quan vụ án”. Nghe vậy hãy cúp máy và đến thẳng trụ sở công an xã, phường để hỏi."
+    },
+    {
+      "id": "action_button",
+      "title": "Tin nhắn có nút “Xác minh tài khoản”? Đừng bấm",
+      "text": "Kẻ gian gửi tin giả gắn sẵn nút “Xác nhận thông tin”, “Xác minh tài khoản”, dọa tài khoản sắp bị khóa. Bấm vào là sang trang giả đòi mật khẩu và mã OTP. Muốn kiểm tra, hãy tự mở ứng dụng chính thức của ngân hàng, ví điện tử."
+    },
+    {
+      "id": "ai_sextortion",
+      "title": "Bị dọa tung ảnh nhạy cảm? Đừng chuyển tiền",
+      "text": "Ảnh, video đó thường được ghép bằng AI từ ảnh bạn đăng trên mạng. Trả tiền rồi chúng vẫn đòi tiếp. Hãy lưu lại tin nhắn, chặn liên lạc và trình báo công an nơi gần nhất."
+    },
+    {
+      "id": "fake_receipt",
+      "title": "Khách đưa ảnh “đã chuyển khoản”? Xem số dư trước khi giao hàng",
+      "text": "Biên lai chuyển khoản làm giả được bằng phần mềm, nhìn rất giống thật. Chỉ giao hàng hay đưa tiền mặt khi tiền đã thật sự vào tài khoản — xem trong ứng dụng ngân hàng của chính bạn, đừng tin ảnh chụp màn hình."
+    },
+    {
+      "id": "criminal_record",
+      "title": "“Làm lý lịch tư pháp nhanh, lấy ngay” trên mạng",
+      "text": "Dịch vụ quảng cáo “không cần thủ tục” thường thu phí rồi biến mất, hoặc lấy ảnh căn cước và tài khoản ngân hàng của bạn. Phiếu lý lịch tư pháp làm được trên ứng dụng VNeID hoặc Cổng Dịch vụ công quốc gia."
+    }
+  ],
+  "stats": [
+    {
+      "id": "loss_2025",
+      "title": "Thiệt hại năm 2025: hơn 8.000 tỷ đồng",
+      "text": "Theo số liệu của Bộ Công an, thiệt hại do lừa đảo trực tuyến tại Việt Nam năm 2025 ước tính hơn 8.000 tỷ đồng. Đừng để mình thành một con số trong đó.",
+      "source": "VOV.VN, dẫn số liệu Bộ Công an",
+      "source_url": "https://vov.vn/phap-luat/thiet-hai-tu-lua-dao-truc-tuyen-len-toi-8000-ty-dong-trong-nam-2025-post1286479.vov",
+      "as_of": "2026-04-24"
+    },
+    {
+      "id": "victim_rate",
+      "title": "Số nạn nhân đã giảm, nhưng đừng chủ quan",
+      "text": "Khảo sát 60.300 người của Hiệp hội An ninh mạng Quốc gia: khoảng 1/555 người (0,18%) là nạn nhân năm 2025, so với khoảng 1/220 (0,45%) năm 2024. Kẻ gian vẫn liên tục đổi chiêu.",
+      "source": "Hiệp hội An ninh mạng Quốc gia (NCA), qua Vietbao",
+      "source_url": "https://vietbao.vn/chi-32-12-nan-nhan-bi-lua-dao-truc-tuyen-co-bao-co-quan-chuc-nang-578625.html",
+      "as_of": "2026-01-07"
+    },
+    {
+      "id": "report_rate",
+      "title": "Chỉ 32,12% nạn nhân báo cơ quan chức năng",
+      "text": "Theo khảo sát của Hiệp hội An ninh mạng Quốc gia, chỉ 32,12% nạn nhân lừa đảo trực tuyến báo cơ quan chức năng; 12,03% chấp nhận mất tiền mà không làm gì. Hãy báo — im lặng chỉ giúp kẻ gian lừa tiếp người khác.",
+      "source": "Hiệp hội An ninh mạng Quốc gia (NCA), qua Vietbao",
+      "source_url": "https://vietbao.vn/chi-32-12-nan-nhan-bi-lua-dao-truc-tuyen-co-bao-co-quan-chuc-nang-578625.html",
+      "as_of": "2026-01-07"
+    },
+    {
+      "id": "common_scripts",
+      "title": "Những kịch bản lừa đảo phổ biến nhất",
+      "text": "Khảo sát năm 2025 cho thấy kẻ gian chủ yếu dùng các kịch bản quen thuộc: mạo danh cơ quan, tổ chức; giả trúng thưởng; giả shipper; giả người quen; kết bạn tình cảm; mời gọi đầu tư tài chính.",
+      "source": "Hiệp hội An ninh mạng Quốc gia (NCA), qua Vietbao",
+      "source_url": "https://vietbao.vn/chi-32-12-nan-nhan-bi-lua-dao-truc-tuyen-co-bao-co-quan-chuc-nang-578625.html",
+      "as_of": "2026-01-07"
+    },
+    {
+      "id": "biometric",
+      "title": "Vì sao tài khoản “rác” khó hơn trước",
+      "text": "Quy định xác thực sinh trắc học của Ngân hàng Nhà nước tạo rào cản kỹ thuật khiến tội phạm khó dùng tài khoản không định danh như trước năm 2024. Hãy dùng sinh trắc học và xác thực 2 lớp cho tài khoản của bạn.",
+      "source": "Hiệp hội An ninh mạng Quốc gia (NCA), qua Vietbao",
+      "source_url": "https://vietbao.vn/chi-32-12-nan-nhan-bi-lua-dao-truc-tuyen-co-bao-co-quan-chuc-nang-578625.html",
+      "as_of": "2026-01-07"
+    },
+    {
+      "id": "utility_dienbien",
+      "title": "Giả nhân viên điện lực: gọi, nhắn và đến tận nhà",
+      "text": "Công an Điện Biên (30/09/2026) cảnh báo kẻ gian báo nợ tiền điện hoặc đến nhà thay công tơ điện tử để thu phí. Theo Điện lực TP.HCM, thay công tơ cơ sang công tơ điện tử là miễn phí; đừng chuyển khoản vào tài khoản cá nhân.",
+      "source": "Kenh14, theo Công an tỉnh Điện Biên và Điện lực TP.HCM",
+      "source_url": "https://kenh14.vn/tat-ca-nguoi-dan-dang-su-dung-dien-chu-y-thong-bao-moi-nhat-tu-cong-an-215260930194129853.chn",
+      "as_of": "2026-09-30"
+    },
+    {
+      "id": "recall_hanoi",
+      "title": "Kẻ gian đọc đúng thông tin đơn hàng của bạn",
+      "text": "Công an TP Hà Nội cảnh báo: người mua online nhận cuộc gọi báo sản phẩm vừa nhận thuộc lô hàng lỗi cần thu hồi; kẻ gian đọc đúng họ tên, tên hàng, ngày giao rồi dẫn sang Zalo/Telegram để “hoàn tiền”. Hãy tự kiểm tra trong ứng dụng của sàn.",
+      "source": "CafeF, theo Cổng thông tin điện tử Công an TP Hà Nội",
+      "source_url": "https://cafef.vn/canh-giac-cuoc-goi-bao-hang-loi-nguoi-mua-online-co-the-mat-tien-trong-tich-tac-188261001100901185.chn",
+      "as_of": "2026-10-01"
+    },
+    {
+      "id": "qr_cafef",
+      "title": "Mã QR giả dán đè lên mã thanh toán thật",
+      "text": "Báo CafeF (30/09/2026) nhắc: kẻ gian dán mã QR giả đè lên mã thật tại cửa hàng, bãi giữ xe, điểm quyên góp; tiền sẽ chuyển tới tài khoản kẻ gian nếu người dùng không kiểm tra tên người nhận.",
+      "source": "CafeF",
+      "source_url": "https://cafef.vn/thong-bao-quan-trong-den-nguoi-thuong-xuyen-giao-dich-chuyen-khoan-188260930063423576.chn",
+      "as_of": "2026-09-30"
+    },
+    {
+      "id": "recovery_anm",
+      "title": "Mạo danh Viện kiểm sát để lừa lần hai",
+      "text": "Cục An ninh mạng (Bộ Công an) cảnh báo trang Facebook “Viện Kiểm Sát - Liên Kết Ngân Hàng Hỗ Trợ” đăng bài cảnh báo lừa đảo để tiếp cận người vừa bị lừa, rồi đòi “phí hồ sơ”, “phí truy vết” hoặc bảo cài ứng dụng độc hại.",
+      "source": "Kenh14, theo Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao (Bộ Công an)",
+      "source_url": "https://kenh14.vn/cong-an-canh-bao-quan-trong-den-nguoi-dung-facebook-21526100210224978.chn",
+      "as_of": "2026-10-02"
+    },
+    {
+      "id": "land_caobang",
+      "title": "Giả cán bộ “làm sạch dữ liệu đất đai”",
+      "text": "Công an tỉnh Cao Bằng cảnh báo kẻ gian giả cán bộ địa chính, văn phòng đăng ký đất đai hoặc thuế, xin ảnh căn cước và sổ đỏ, bảo cài ứng dụng “cập nhật dữ liệu đất đai”, dọa “khóa hồ sơ” rồi đòi “phí cập nhật”, “phí chỉnh lý hồ sơ”.",
+      "source": "Kenh14, theo Công an tỉnh Cao Bằng",
+      "source_url": "https://kenh14.vn/tat-ca-nguoi-dan-co-so-do-chu-y-thong-bao-moi-tu-cong-an-215261002204411202.chn",
+      "as_of": "2026-10-02"
+    },
+    {
+      "id": "bulk_phutho",
+      "title": "Nhờ mua hộ 200 mặt nạ, đòi chuyển khoản trước",
+      "text": "Công an tỉnh Phú Thọ kể: người xưng là nhân viên trung tâm y tế nhờ mua hộ mặt nạ phòng độc và giới thiệu cửa hàng; cửa hàng đòi chuyển khoản trước một phần và hối thúc. Xác minh cho thấy trung tâm không có nhân viên đó và không mua hàng.",
+      "source": "Kenh14, theo Trang thông tin điện tử Công an tỉnh Phú Thọ",
+      "source_url": "https://kenh14.vn/cong-an-thong-bao-toi-nguoi-dan-nhan-tin-nhan-zalo-co-noi-dung-sau-215260930224314326.chn",
+      "as_of": "2026-10-01"
+    },
+    {
+      "id": "prize_quangninh",
+      "title": "Gọi báo trúng điện thoại, đòi OTP và tiền tạm ứng",
+      "text": "Công an TP Quảng Ninh cho biết một người dân nhận cuộc gọi báo trúng thưởng điện thoại qua “bốc thăm số điện thoại”, bị đòi số định danh, tài khoản ngân hàng, mã OTP và “tạm ứng trước” tiền. Chị đã đến công an trình báo nên không mất tiền.",
+      "source": "Kenh14, theo Phòng Cảnh sát hình sự, Công an TP Quảng Ninh",
+      "source_url": "https://kenh14.vn/nhan-cuoc-goi-tu-sdt-02038895935-lien-quan-den-khoan-tam-ung-10000000-dong-nguoi-phu-nu-sn-1989-lap-tuc-bao-cong-an-21526100216330552.chn",
+      "as_of": "2026-10-02"
+    },
+    {
+      "id": "police_hatinh",
+      "title": "Công an không đòi chuyển tiền để “chứng minh tài sản”",
+      "text": "Công an tỉnh Hà Tĩnh (29/09/2026): kẻ gian giả cán bộ công an xã gọi “hướng dẫn thủ tục hành chính”. Công an không yêu cầu người dân chuyển tiền qua điện thoại để “phục vụ điều tra”, “chứng minh tài sản” hay “chứng minh mình không liên quan đến vụ án”.",
+      "source": "Kenh14, theo Công an tỉnh Hà Tĩnh",
+      "source_url": "https://kenh14.vn/cong-an-canh-bao-toi-nguoi-dan-co-giao-dich-trong-tai-khoan-voi-noi-dung-chuyen-khoan-sau-215260930071312102.chn",
+      "as_of": "2026-09-30"
+    },
+    {
+      "id": "ai_sextortion_thanhhoa",
+      "title": "Gần 20 người bị dọa bằng ảnh ghép AI",
+      "text": "Công an tỉnh Thanh Hóa: từ đầu tháng 10/2026 đã có gần 20 người trình báo bị đe dọa, tống tiền bằng ảnh, video nhạy cảm cắt ghép; có trường hợp bị đòi tới 1,5 tỷ đồng. Kẻ gian lấy ảnh nạn nhân trên mạng xã hội, dùng SIM rác và máy chủ đặt ở nước ngoài.",
+      "source": "Báo Công an Nhân dân (qua Báo Mới), theo Công an tỉnh Thanh Hóa",
+      "source_url": "https://baomoi.com/thanh-hoa-gan-20-nguoi-trinh-bao-bi-de-doa-tong-tien-bang-anh-ai-nhay-cam-c56193131.epi",
+      "as_of": "2026-10-04"
+    },
+    {
+      "id": "fake_receipt_daklak",
+      "title": "Biên lai chuyển khoản cũng làm giả được",
+      "text": "Công an tỉnh Hưng Yên và Công an tỉnh Đắk Lắk (02/10/2026) cảnh báo thủ đoạn làm giả biên lai chuyển tiền ngân hàng. Ở Đắk Lắk, hai đối tượng tạo giao dịch giả “đã thanh toán thành công” và gây ra 6 vụ. Hãy kiểm tra tiền đã về tài khoản trước khi giao hàng.",
+      "source": "Kenh14, theo Công an tỉnh Hưng Yên và Công an tỉnh Đắk Lắk",
+      "source_url": "https://kenh14.vn/cong-an-se-dieu-tra-khi-phat-hien-cac-giao-dich-chuyen-tien-nhu-sau-215261002083518798.chn",
+      "as_of": "2026-10-02"
+    },
+    {
+      "id": "criminal_record_quangtri",
+      "title": "Dịch vụ “lý lịch tư pháp lấy ngay” là bẫy",
+      "text": "Công an tỉnh Quảng Trị (03/10/2026) cảnh báo các tài khoản, hội nhóm quảng cáo làm phiếu lý lịch tư pháp “nhanh”, “lấy ngay”, “không cần thủ tục”: thu phí dịch vụ, lấy thông tin căn cước và tài khoản ngân hàng, có trường hợp giao phiếu giả. Kênh chính thức là ứng dụng VNeID và Cổng Dịch vụ công quốc gia.",
+      "source": "Góc nhìn pháp lý (Người Đưa Tin), theo Công an tỉnh Quảng Trị",
+      "source_url": "https://gocnhinphaply.nguoiduatin.vn/canh-bao-lua-dao-tu-dich-vu-lam-phieu-ly-lich-tu-phap-nhanh-lay-ngay-tren-mang-52821.html",
+      "as_of": "2026-10-03"
+    },
+    {
+      "id": "action_button_vtv",
+      "title": "Bẫy “nút bấm hành động” trong tin nhắn",
+      "text": "VTV (01/10/2026), dẫn lời ông Ngô Minh Hiếu, Giám đốc dự án Chống lừa đảo: tin nhắn giả gắn nút “xác nhận thông tin”, “xác minh tài khoản”, “xác thực danh tính” kèm lời dọa tài khoản sắp bị khóa; bấm vào sẽ sang trang giả đòi mật khẩu và mã OTP.",
+      "source": "VTV",
+      "source_url": "https://vtv.vn/canh-giac-bay-lua-dao-nut-bam-hanh-dong-10026100121291228.htm",
+      "as_of": "2026-10-01"
+    }
+  ]
+}

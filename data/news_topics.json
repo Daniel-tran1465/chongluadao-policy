@@ -1,0 +1,270 @@
+{
+  "data_version": 11,
+  "topics": [
+    {
+      "id": "fake_authority",
+      "icon": "👮",
+      "name": "Giả danh công an, cơ quan chức năng",
+      "keywords": [
+        "giả danh công an",
+        "mạo danh công an",
+        "giả mạo công an",
+        "công an giả",
+        "cảnh sát giả",
+        "giả danh cán bộ",
+        "giả danh viện kiểm sát",
+        "giả danh tòa án",
+        "giả danh cơ quan",
+        "mạo danh cơ quan"
+      ]
+    },
+    {
+      "id": "bank_otp",
+      "icon": "🏦",
+      "name": "Chiếm đoạt tài khoản ngân hàng, mã OTP",
+      "keywords": [
+        "tài khoản ngân hàng",
+        "otp",
+        "mã xác thực",
+        "thẻ ngân hàng",
+        "chiếm đoạt tài khoản",
+        "internet banking",
+        "mở tài khoản",
+        "bán tài khoản",
+        "thẻ tín dụng",
+        "nút bấm",
+        "xác minh tài khoản"
+      ]
+    },
+    {
+      "id": "investment",
+      "icon": "💸",
+      "name": "Đầu tư, tiền ảo, sàn giao dịch giả",
+      "keywords": [
+        "đầu tư",
+        "tiền ảo",
+        "tiền số",
+        "sàn giao dịch",
+        "chứng khoán",
+        "lãi suất cao",
+        "forex",
+        "coin",
+        "đa cấp",
+        "huy động vốn"
+      ]
+    },
+    {
+      "id": "job",
+      "icon": "💼",
+      "name": "Việc làm online, cộng tác viên, làm nhiệm vụ",
+      "keywords": [
+        "việc làm",
+        "cộng tác viên",
+        "làm nhiệm vụ",
+        "tuyển dụng",
+        "việc nhẹ lương cao",
+        "chốt đơn",
+        "tăng like",
+        "thao tác đơn giản"
+      ]
+    },
+    {
+      "id": "deepfake_ai",
+      "icon": "🎭",
+      "name": "Deepfake, giả giọng nói và khuôn mặt bằng AI",
+      "keywords": [
+        "deepfake",
+        "trí tuệ nhân tạo",
+        "công nghệ ai",
+        "bằng ai",
+        "ứng dụng ai",
+        "giả giọng",
+        "giả khuôn mặt",
+        "giả hình ảnh",
+        "cuộc gọi video",
+        "ảnh nhạy cảm",
+        "video nhạy cảm",
+        "cắt ghép",
+        "ghép mặt",
+        "tống tiền"
+      ]
+    },
+    {
+      "id": "online_shopping",
+      "icon": "📦",
+      "name": "Mua bán online, giả shipper, sàn thương mại",
+      "keywords": [
+        "mua hàng",
+        "bán hàng",
+        "shipper",
+        "giao hàng",
+        "sàn thương mại",
+        "livestream",
+        "đặt cọc",
+        "hàng giả",
+        "thanh toán trước",
+        "thu hồi sản phẩm",
+        "thu hồi hàng",
+        "hàng lỗi",
+        "mua hàng hộ",
+        "mua hộ",
+        "đặt hàng số lượng lớn",
+        "biên lai giả",
+        "bill giả",
+        "chuyển khoản giả",
+        "giao dịch giả"
+      ]
+    },
+    {
+      "id": "romance",
+      "icon": "💕",
+      "name": "Lừa tình cảm, kết bạn qua mạng",
+      "keywords": [
+        "kết bạn",
+        "làm quen",
+        "tình cảm",
+        "hẹn hò",
+        "quà từ nước ngoài",
+        "người nước ngoài",
+        "yêu qua mạng"
+      ]
+    },
+    {
+      "id": "loan",
+      "icon": "💰",
+      "name": "Cho vay, tín dụng đen, app vay tiền",
+      "keywords": [
+        "cho vay",
+        "vay tiền",
+        "tín dụng đen",
+        "app vay",
+        "lãi suất cắt cổ",
+        "đòi nợ",
+        "vay nóng"
+      ]
+    },
+    {
+      "id": "prize",
+      "icon": "🎁",
+      "name": "Trúng thưởng, khuyến mãi giả",
+      "keywords": [
+        "trúng thưởng",
+        "khuyến mãi",
+        "quà tặng",
+        "bốc thăm",
+        "nhận quà"
+      ]
+    },
+    {
+      "id": "telecom",
+      "icon": "📱",
+      "name": "Giả nhà mạng, SIM, cuộc gọi lạ",
+      "keywords": [
+        "sim",
+        "nhà mạng",
+        "thuê bao",
+        "cuộc gọi lạ",
+        "sim rác",
+        "khóa sim",
+        "tin nhắn rác"
+      ]
+    },
+    {
+      "id": "utility_qr",
+      "icon": "⚡",
+      "name": "Giả điện lực, mã QR giả",
+      "keywords": [
+        "giả danh nhân viên điện",
+        "mạo danh nhân viên điện",
+        "giả nhân viên điện lực",
+        "nhân viên điện lực giả",
+        "công tơ điện tử",
+        "mã qr giả",
+        "dán mã qr",
+        "quét mã qr",
+        "qr giả"
+      ]
+    },
+    {
+      "id": "recovery",
+      "icon": "🔁",
+      "name": "Lừa lần hai: hứa lấy lại tiền",
+      "keywords": [
+        "lấy lại tiền",
+        "lừa đảo lần hai",
+        "lừa lần hai",
+        "lừa đảo phục hồi",
+        "hỗ trợ lấy lại"
+      ]
+    },
+    {
+      "id": "gov_service",
+      "icon": "🏛️",
+      "name": "Giả dịch vụ công, đất đai, thuế",
+      "keywords": [
+        "sổ đỏ",
+        "dữ liệu đất đai",
+        "cán bộ địa chính",
+        "vneid",
+        "dịch vụ công",
+        "cán bộ thuế",
+        "định danh điện tử",
+        "lý lịch tư pháp"
+      ]
+    }
+  ],
+  "blocked_rules": [
+    {
+      "min_match": 2,
+      "terms": [
+        {
+          "words": 4,
+          "sha256": "d067f22c3a0c34d73c3ea1c52b16e3acef85ad019073c7a359e345eab3ac93be"
+        },
+        {
+          "words": 1,
+          "sha256": "346852afe43ce88b38c9dd66d701d87c32b625267c7b24cf981f35b5f1787a8b"
+        }
+      ]
+    },
+    {
+      "min_match": 2,
+      "terms": [
+        {
+          "words": 1,
+          "sha256": "346852afe43ce88b38c9dd66d701d87c32b625267c7b24cf981f35b5f1787a8b"
+        },
+        {
+          "words": 2,
+          "sha256": "fa219f438676ac304518f74137625c718d428513bd6d305521e9f27dbd2effa0"
+        }
+      ]
+    },
+    {
+      "min_match": 2,
+      "terms": [
+        {
+          "words": 4,
+          "sha256": "d067f22c3a0c34d73c3ea1c52b16e3acef85ad019073c7a359e345eab3ac93be"
+        },
+        {
+          "words": 2,
+          "sha256": "2768ae0779c7e0a09ee8dd23a7ddcdcd7a25f5a2b4984546198d9fa146bd4035"
+        }
+      ]
+    },
+    {
+      "min_match": 2,
+      "terms": [
+        {
+          "words": 4,
+          "sha256": "d067f22c3a0c34d73c3ea1c52b16e3acef85ad019073c7a359e345eab3ac93be"
+        },
+        {
+          "words": 2,
+          "sha256": "fa219f438676ac304518f74137625c718d428513bd6d305521e9f27dbd2effa0"
+        }
+      ]
+    }
+  ]
+}

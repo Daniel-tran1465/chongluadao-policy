@@ -1,0 +1,7 @@
+{
+  "data_version": 3,
+  "_comment": "Sổ đen đóng gói sẵn. HIỆN ĐỂ TRỐNG có chủ đích: chỉ đưa số vào khi có nguồn chính thức công bố và đã cân nhắc rủi ro số bị giả mạo (số trong sổ đen có thể bị TỰ TỪ CHỐI nếu người dùng bật). Số trong một bản tin báo chí chưa đủ căn cứ. Người dùng tự thêm số vào sổ đen cá nhân trong app. Từng có 2 số mẫu demo (0900000001/2) — đã gỡ ở data_version 2 vì đó là định dạng số di động thật.",
+  "numbers": [],
+  "_comment_reported": "Mục \"reported\": số bị NGƯỜI DÙNG báo cáo, gom bằng tools/report_pipeline.py và được người duyệt chấp thuận. CHƯA kiểm chứng -> app chỉ cảnh báo mức vừa, KHÔNG tự từ chối (chỉ mục \"numbers\" mới có thể bị tự từ chối). Mỗi mục: number, reports (số báo cáo), last (tháng có báo cáo gần nhất, YYYY-MM). Đừng sửa tay — dùng công cụ.",
+  "reported": []
+}
