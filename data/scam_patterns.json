@@ -1,5 +1,5 @@
 {
-  "data_version": 12,
+  "data_version": 14,
   "schema_version": "1.4",
   "categories": [
     {
@@ -483,6 +483,47 @@
         "tiền giả bao test"
       ],
       "advice": "Mua, bán, tàng trữ hay tiêu thụ tiền giả đều là phạm tội. Các tài khoản rao bán tiền giả “tỉ lệ cao”, “khó phát hiện” trên mạng thường nhận tiền cọc rồi chặn liên lạc. Đừng liên hệ, đừng chuyển tiền; gặp thì báo công an."
+    },
+    {
+      "id": "gambling_spam",
+      "name": "Tin rác mời đánh bạc, cá cược qua mạng",
+      "icon": "🎰",
+      "severity_weight": 0.7,
+      "keywords": [
+        "nhà cái uy tín",
+        "nhà cái hàng đầu",
+        "link vào nhà cái",
+        "sảnh game uy tín",
+        "sảnh gam uy tín",
+        "sảnh game đổi thưởng",
+        "cổng game đổi thưởng",
+        "cổng game uy tín",
+        "game bài đổi thưởng",
+        "game đổi thưởng uy tín",
+        "game nổ hũ",
+        "nổ hũ đổi thưởng",
+        "nổ hũ uy tín",
+        "quay hũ đổi thưởng",
+        "tài xỉu online",
+        "tài xỉu uy tín",
+        "tài xỉu md5",
+        "bắn cá đổi thưởng",
+        "casino trực tuyến",
+        "casino online",
+        "cá cược thể thao",
+        "cá cược bóng đá trực tuyến",
+        "cá độ bóng đá online",
+        "nạp đầu tặng",
+        "thưởng nạp đầu",
+        "khuyến mãi nạp đầu",
+        "nạp lần đầu tặng",
+        "nhận ngay 68k",
+        "nhận ngay 88k",
+        "lô đề online",
+        "soi cầu miễn phí",
+        "chốt số miễn phí"
+      ],
+      "advice": "Đây là kiểu tin rác mời chơi cờ bạc, cá cược qua mạng. Đánh bạc qua mạng là trái pháp luật, và nhiều trang nhận tiền nạp rồi không cho rút. Đừng bấm link, đừng nạp tiền, đừng tải ứng dụng theo tin này. Có thể báo tin rác miễn phí: soạn S [số gửi tin] [nội dung tin] gửi 5656."
     }
   ],
   "red_flag_signals": [
@@ -1041,8 +1082,16 @@
     ]
   },
   "community": {
-    "_ghi_chu": "Cụm từ lặp lại trong BÁO CÁO CỦA NGƯỜI DÙNG, do tools/report_pipeline.py tự đưa vào và tự gỡ sau 6 tháng không còn báo cáo. CHƯA kiểm chứng: app chỉ nâng tin lên tối đa mức 'cần cảnh giác' và nói rõ có thể là báo cáo sai. Đừng sửa tay.",
+    "_ghi_chu": "Dữ liệu từ BÁO CÁO CỦA NGƯỜI DÙNG, do tools/report_pipeline.py tự đưa vào và tự gỡ sau 6 tháng không còn báo cáo: 'phrases' = cụm từ lặp lại trong nhiều báo cáo; 'domains' = tên miền trong tin bị báo cáo; 'messages' = dấu vân tay (mã băm từng cụm 4 từ, không có nội dung) của tin bị báo cáo. CHƯA kiểm chứng: một báo cáo là đủ để app nhắc, nhưng app chỉ nâng tin lên tối đa mức 'cần cảnh giác' và nói rõ có thể là báo cáo sai. Đừng sửa tay.",
     "advice": "Tin giống thế này đã bị người dùng khác báo cáo. Chưa chắc là lừa đảo, nhưng hãy thận trọng: đừng bấm link, đừng chuyển tiền hay đọc mã OTP theo tin này; tự liên hệ kênh chính thức (số trên thẻ, hóa đơn, ứng dụng chính thức) để kiểm tra.",
-    "phrases": []
+    "phrases": [],
+    "domains": [
+      {
+        "domain": "aevn.win",
+        "reports": 1,
+        "last": "2026-10"
+      }
+    ],
+    "messages": []
   }
 }
