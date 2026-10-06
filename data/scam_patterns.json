@@ -1,5 +1,5 @@
 {
-  "data_version": 15,
+  "data_version": 16,
   "schema_version": "1.4",
   "categories": [
     {
@@ -121,7 +121,12 @@
         "gói tiết kiệm lãi suất cao",
         "gửi tiết kiệm online lãi suất cao",
         "lãi suất tiết kiệm 15%",
-        "lãi suất tiết kiệm 20%"
+        "lãi suất tiết kiệm 20%",
+        "ctv chốt đơn",
+        "chốt đơn nhận hoa hồng",
+        "tuyển ctv làm việc tại nhà",
+        "làm việc tại nhà không cần vốn",
+        "làm tại nhà không cần vốn"
       ],
       "advice": "Cam kết lãi cao hoặc việc nhẹ lương cao thường là bẫy. Tuyệt đối không nạp tiền để nhận nhiệm vụ dưới bất kỳ hình thức nào."
     },
