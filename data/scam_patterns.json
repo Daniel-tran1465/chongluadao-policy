@@ -1,5 +1,5 @@
 {
-  "data_version": 14,
+  "data_version": 15,
   "schema_version": "1.4",
   "categories": [
     {
@@ -312,7 +312,10 @@
         "làm phiếu lý lịch tư pháp nhanh",
         "làm lý lịch tư pháp nhanh",
         "lý lịch tư pháp lấy ngay",
-        "lý lịch tư pháp không cần thủ tục"
+        "lý lịch tư pháp không cần thủ tục",
+        "cài ứng dụng bảo hiểm theo link",
+        "tải file cài đặt em gửi",
+        "cấp quyền cho ứng dụng bảo hiểm"
       ],
       "advice": "Cơ quan nhà nước không yêu cầu cung cấp mã xác thực hay chuyển tiền qua tin nhắn/link lạ. Chỉ dùng ứng dụng VNeID, eTax Mobile và cổng dịch vụ công chính thức tải từ kho ứng dụng; trang web thật của cơ quan nhà nước luôn có đuôi .gov.vn."
     },
