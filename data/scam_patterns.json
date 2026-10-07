@@ -1,5 +1,5 @@
 {
-  "data_version": 16,
+  "data_version": 18,
   "schema_version": "1.4",
   "categories": [
     {
@@ -355,7 +355,10 @@
         "tạo mã thu hồi",
         "tạo mã trả hàng",
         "xác minh lệnh hoàn tiền",
-        "lệnh hoàn tiền"
+        "lệnh hoàn tiền",
+        "chuyển cọc trước 500k",
+        "đại lý vé đại nhạc hội",
+        "chuyển khoản trước giữ vé"
       ],
       "advice": "Sàn thương mại không yêu cầu bạn chuyển tiền hay đọc mã OTP để được hoàn tiền. Hãy kiểm tra đơn trong app chính thức của sàn."
     },
@@ -391,7 +394,10 @@
         "kyc kiếm tiền",
         "làm kyc ngân hàng",
         "xác thực tài khoản nhận hoa hồng",
-        "xác thực khuôn mặt hộ"
+        "xác thực khuôn mặt hộ",
+        "trả công chụp căn cước",
+        "thuê chụp ảnh thẻ căn cước",
+        "gửi ảnh căn cước nhận tiền công"
       ],
       "advice": "Mở hộ, cho thuê, cho mượn hay bán tài khoản ngân hàng là vi phạm pháp luật: tài khoản của bạn sẽ bị kẻ gian dùng để nhận tiền lừa đảo, có thể bị phong tỏa và bạn có thể bị xử lý. Không giao CCCD, khuôn mặt, sim, thẻ hay mật khẩu ngân hàng cho bất kỳ ai."
     },
