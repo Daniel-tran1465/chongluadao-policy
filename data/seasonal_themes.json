@@ -1,0 +1,272 @@
+{
+  "data_version": 1,
+  "_ghi_chu": "GIAO DIỆN THEO DỊP (ngày lễ Việt Nam, sinh nhật ứng dụng). Sinh bởi tools/gen_seasonal_themes.py — đừng sửa tay. 'fixed': ngày dương lặp lại mỗi năm (MM-DD). 'dates': khoảng ngày dương đã tính sẵn cho dịp theo ÂM lịch. 'motif': hình trang trí có sẵn trong app (drum, blossom, star, lantern, lotus, firework, cake); app gặp tên lạ thì dùng hình mặc định. 'since' + '{n}' trong lời chào: số tuổi của ứng dụng. Thứ tự trong danh sách là thứ tự ưu tiên.",
+  "occasions": [
+    {
+      "id": "tet",
+      "name": "Tết Nguyên đán",
+      "greeting": "Chúc mừng năm mới",
+      "motif": "blossom",
+      "dates": [
+        [
+          "2026-02-13",
+          "2026-02-22"
+        ],
+        [
+          "2027-02-02",
+          "2027-02-11"
+        ],
+        [
+          "2028-01-22",
+          "2028-01-31"
+        ],
+        [
+          "2029-02-09",
+          "2029-02-18"
+        ],
+        [
+          "2030-01-29",
+          "2030-02-07"
+        ],
+        [
+          "2031-01-19",
+          "2031-01-28"
+        ],
+        [
+          "2032-02-07",
+          "2032-02-16"
+        ],
+        [
+          "2033-01-27",
+          "2033-02-05"
+        ],
+        [
+          "2034-02-15",
+          "2034-02-24"
+        ],
+        [
+          "2035-02-04",
+          "2035-02-13"
+        ],
+        [
+          "2036-01-24",
+          "2036-02-02"
+        ]
+      ]
+    },
+    {
+      "id": "gio_to",
+      "name": "Giỗ Tổ Hùng Vương (10/3 âm lịch)",
+      "greeting": "Hướng về Giỗ Tổ Hùng Vương",
+      "motif": "drum",
+      "dates": [
+        [
+          "2026-04-25",
+          "2026-04-26"
+        ],
+        [
+          "2027-04-15",
+          "2027-04-16"
+        ],
+        [
+          "2028-04-03",
+          "2028-04-04"
+        ],
+        [
+          "2029-04-22",
+          "2029-04-23"
+        ],
+        [
+          "2030-04-11",
+          "2030-04-12"
+        ],
+        [
+          "2031-03-31",
+          "2031-04-01"
+        ],
+        [
+          "2032-04-18",
+          "2032-04-19"
+        ],
+        [
+          "2033-04-08",
+          "2033-04-09"
+        ],
+        [
+          "2034-04-27",
+          "2034-04-28"
+        ],
+        [
+          "2035-04-16",
+          "2035-04-17"
+        ],
+        [
+          "2036-04-05",
+          "2036-04-06"
+        ]
+      ]
+    },
+    {
+      "id": "trung_thu",
+      "name": "Tết Trung thu (rằm tháng Tám)",
+      "greeting": "Vui Tết Trung thu",
+      "motif": "lantern",
+      "dates": [
+        [
+          "2026-09-23",
+          "2026-09-25"
+        ],
+        [
+          "2027-09-13",
+          "2027-09-15"
+        ],
+        [
+          "2028-10-01",
+          "2028-10-03"
+        ],
+        [
+          "2029-09-20",
+          "2029-09-22"
+        ],
+        [
+          "2030-09-10",
+          "2030-09-12"
+        ],
+        [
+          "2031-09-29",
+          "2031-10-01"
+        ],
+        [
+          "2032-09-17",
+          "2032-09-19"
+        ],
+        [
+          "2033-09-06",
+          "2033-09-08"
+        ],
+        [
+          "2034-09-24",
+          "2034-09-26"
+        ],
+        [
+          "2035-09-14",
+          "2035-09-16"
+        ],
+        [
+          "2036-10-02",
+          "2036-10-04"
+        ]
+      ]
+    },
+    {
+      "id": "nam_moi",
+      "name": "Tết Dương lịch",
+      "greeting": "Chúc mừng năm mới",
+      "motif": "firework",
+      "fixed": {
+        "from": "01-01",
+        "to": "01-01"
+      }
+    },
+    {
+      "id": "8_3",
+      "name": "Ngày Quốc tế Phụ nữ 8/3",
+      "greeting": "Chúc mừng ngày Phụ nữ 8/3",
+      "motif": "lotus",
+      "fixed": {
+        "from": "03-08",
+        "to": "03-08"
+      }
+    },
+    {
+      "id": "30_4",
+      "name": "Ngày Giải phóng miền Nam, thống nhất đất nước 30/4",
+      "greeting": "Mừng ngày thống nhất 30/4",
+      "motif": "star",
+      "fixed": {
+        "from": "04-30",
+        "to": "04-30"
+      }
+    },
+    {
+      "id": "1_5",
+      "name": "Ngày Quốc tế Lao động 1/5",
+      "greeting": "Mừng ngày Quốc tế Lao động 1/5",
+      "motif": "star",
+      "fixed": {
+        "from": "05-01",
+        "to": "05-01"
+      }
+    },
+    {
+      "id": "19_5",
+      "name": "Ngày sinh Chủ tịch Hồ Chí Minh 19/5",
+      "greeting": "Nhớ ngày sinh Bác Hồ 19/5",
+      "motif": "lotus",
+      "fixed": {
+        "from": "05-19",
+        "to": "05-19"
+      }
+    },
+    {
+      "id": "1_6",
+      "name": "Ngày Quốc tế Thiếu nhi 1/6",
+      "greeting": "Mừng Tết Thiếu nhi 1/6",
+      "motif": "lantern",
+      "fixed": {
+        "from": "06-01",
+        "to": "06-01"
+      }
+    },
+    {
+      "id": "27_7",
+      "name": "Ngày Thương binh – Liệt sĩ 27/7",
+      "greeting": "Tri ân thương binh, liệt sĩ 27/7",
+      "motif": "lotus",
+      "fixed": {
+        "from": "07-27",
+        "to": "07-27"
+      }
+    },
+    {
+      "id": "2_9",
+      "name": "Quốc khánh 2/9",
+      "greeting": "Mừng Quốc khánh 2/9",
+      "motif": "star",
+      "fixed": {
+        "from": "09-01",
+        "to": "09-02"
+      }
+    },
+    {
+      "id": "20_10",
+      "name": "Ngày Phụ nữ Việt Nam 20/10",
+      "greeting": "Mừng ngày Phụ nữ Việt Nam 20/10",
+      "motif": "lotus",
+      "fixed": {
+        "from": "10-20",
+        "to": "10-20"
+      }
+    },
+    {
+      "id": "20_11",
+      "name": "Ngày Nhà giáo Việt Nam 20/11",
+      "greeting": "Tri ân thầy cô 20/11",
+      "motif": "lotus",
+      "fixed": {
+        "from": "11-20",
+        "to": "11-20"
+      }
+    },
+    {
+      "id": "22_12",
+      "name": "Ngày thành lập Quân đội nhân dân Việt Nam 22/12",
+      "greeting": "Chào mừng ngày 22/12",
+      "motif": "star",
+      "fixed": {
+        "from": "12-22",
+        "to": "12-22"
+      }
+    }
+  ]
+}
