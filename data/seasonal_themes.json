@@ -1,12 +1,13 @@
 {
-  "data_version": 1,
-  "_ghi_chu": "GIAO DIỆN THEO DỊP (ngày lễ Việt Nam, sinh nhật ứng dụng). Sinh bởi tools/gen_seasonal_themes.py — đừng sửa tay. 'fixed': ngày dương lặp lại mỗi năm (MM-DD). 'dates': khoảng ngày dương đã tính sẵn cho dịp theo ÂM lịch. 'motif': hình trang trí có sẵn trong app (drum, blossom, star, lantern, lotus, firework, cake); app gặp tên lạ thì dùng hình mặc định. 'since' + '{n}' trong lời chào: số tuổi của ứng dụng. Thứ tự trong danh sách là thứ tự ưu tiên.",
+  "data_version": 2,
+  "_ghi_chu": "GIAO DIỆN THEO DỊP (ngày lễ Việt Nam, sinh nhật ứng dụng). Sinh bởi tools/gen_seasonal_themes.py — đừng sửa tay. 'fixed': ngày dương lặp lại mỗi năm (MM-DD). 'dates': khoảng ngày dương đã tính sẵn cho dịp theo ÂM lịch. 'motif': hình trang trí có sẵn trong app (drum, blossom, star, lantern, lotus, firework, cake, pine); app gặp tên lạ thì dùng hình mặc định. 'garland': dây trang trí treo quanh đầu trang và thanh điều hướng (noel, lixi, lantern, bunting, flowers); không có = không treo. 'since' + '{n}' trong lời chào: số tuổi của ứng dụng. Thứ tự trong danh sách là thứ tự ưu tiên.",
   "occasions": [
     {
       "id": "tet",
       "name": "Tết Nguyên đán",
       "greeting": "Chúc mừng năm mới",
       "motif": "blossom",
+      "garland": "lixi",
       "dates": [
         [
           "2026-02-13",
@@ -111,6 +112,7 @@
       "name": "Tết Trung thu (rằm tháng Tám)",
       "greeting": "Vui Tết Trung thu",
       "motif": "lantern",
+      "garland": "lantern",
       "dates": [
         [
           "2026-09-23",
@@ -159,10 +161,23 @@
       ]
     },
     {
+      "id": "sinh_nhat",
+      "name": "Sinh nhật ứng dụng",
+      "greeting": "Hôm nay ứng dụng tròn {n} tuổi",
+      "motif": "cake",
+      "garland": "bunting",
+      "fixed": {
+        "from": "09-12",
+        "to": "09-12"
+      },
+      "since": 2026
+    },
+    {
       "id": "nam_moi",
       "name": "Tết Dương lịch",
       "greeting": "Chúc mừng năm mới",
       "motif": "firework",
+      "garland": "bunting",
       "fixed": {
         "from": "01-01",
         "to": "01-01"
@@ -173,6 +188,7 @@
       "name": "Ngày Quốc tế Phụ nữ 8/3",
       "greeting": "Chúc mừng ngày Phụ nữ 8/3",
       "motif": "lotus",
+      "garland": "flowers",
       "fixed": {
         "from": "03-08",
         "to": "03-08"
@@ -183,6 +199,7 @@
       "name": "Ngày Giải phóng miền Nam, thống nhất đất nước 30/4",
       "greeting": "Mừng ngày thống nhất 30/4",
       "motif": "star",
+      "garland": "bunting",
       "fixed": {
         "from": "04-30",
         "to": "04-30"
@@ -193,6 +210,7 @@
       "name": "Ngày Quốc tế Lao động 1/5",
       "greeting": "Mừng ngày Quốc tế Lao động 1/5",
       "motif": "star",
+      "garland": "bunting",
       "fixed": {
         "from": "05-01",
         "to": "05-01"
@@ -213,6 +231,7 @@
       "name": "Ngày Quốc tế Thiếu nhi 1/6",
       "greeting": "Mừng Tết Thiếu nhi 1/6",
       "motif": "lantern",
+      "garland": "bunting",
       "fixed": {
         "from": "06-01",
         "to": "06-01"
@@ -233,6 +252,7 @@
       "name": "Quốc khánh 2/9",
       "greeting": "Mừng Quốc khánh 2/9",
       "motif": "star",
+      "garland": "bunting",
       "fixed": {
         "from": "09-01",
         "to": "09-02"
@@ -243,6 +263,7 @@
       "name": "Ngày Phụ nữ Việt Nam 20/10",
       "greeting": "Mừng ngày Phụ nữ Việt Nam 20/10",
       "motif": "lotus",
+      "garland": "flowers",
       "fixed": {
         "from": "10-20",
         "to": "10-20"
@@ -253,6 +274,7 @@
       "name": "Ngày Nhà giáo Việt Nam 20/11",
       "greeting": "Tri ân thầy cô 20/11",
       "motif": "lotus",
+      "garland": "flowers",
       "fixed": {
         "from": "11-20",
         "to": "11-20"
@@ -263,9 +285,21 @@
       "name": "Ngày thành lập Quân đội nhân dân Việt Nam 22/12",
       "greeting": "Chào mừng ngày 22/12",
       "motif": "star",
+      "garland": "bunting",
       "fixed": {
         "from": "12-22",
         "to": "12-22"
+      }
+    },
+    {
+      "id": "giang_sinh",
+      "name": "Lễ Giáng sinh",
+      "greeting": "Chúc mừng Giáng sinh",
+      "motif": "pine",
+      "garland": "noel",
+      "fixed": {
+        "from": "12-20",
+        "to": "12-25"
       }
     }
   ]
