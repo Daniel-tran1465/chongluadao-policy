@@ -1,5 +1,5 @@
 {
-  "data_version": 19,
+  "data_version": 21,
   "schema_version": "1.4",
   "categories": [
     {
@@ -547,7 +547,12 @@
       "keywords": [
         "lo giúp anh thủ tục sổ đỏ",
         "chạy hồ sơ đất cho anh",
-        "chuyển trước tiền lo thủ tục"
+        "chuyển trước tiền lo thủ tục",
+        "chị quét thanh toán giữ hàng",
+        "bấm vào link này nhập thông tin để đặt hàng",
+        "cài app theo link em gửi",
+        "vé concert giá rẻ cần bán gấp",
+        "bạn chuyển khoản trước em gửi vé"
       ],
       "advice": "Tin này giống một thủ đoạn báo chí vừa cảnh báo. Đừng vội làm theo: không bấm link, không chuyển tiền, không đọc mã OTP; tự gọi số chính thức của nơi được nhắc tới để hỏi lại, và hỏi người thân trước khi quyết định."
     }
