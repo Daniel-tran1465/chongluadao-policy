@@ -1,5 +1,5 @@
 {
-  "data_version": 18,
+  "data_version": 19,
   "schema_version": "1.4",
   "categories": [
     {
@@ -538,6 +538,18 @@
         "chốt số miễn phí"
       ],
       "advice": "Đây là kiểu tin rác mời chơi cờ bạc, cá cược qua mạng. Đánh bạc qua mạng là trái pháp luật, và nhiều trang nhận tiền nạp rồi không cho rút. Đừng bấm link, đừng nạp tiền, đừng tải ứng dụng theo tin này. Có thể báo tin rác miễn phí: soạn S [số gửi tin] [nội dung tin] gửi 5656."
+    },
+    {
+      "id": "news_alert",
+      "name": "Thủ đoạn mới báo chí vừa cảnh báo",
+      "icon": "📰",
+      "severity_weight": 0.6,
+      "keywords": [
+        "lo giúp anh thủ tục sổ đỏ",
+        "chạy hồ sơ đất cho anh",
+        "chuyển trước tiền lo thủ tục"
+      ],
+      "advice": "Tin này giống một thủ đoạn báo chí vừa cảnh báo. Đừng vội làm theo: không bấm link, không chuyển tiền, không đọc mã OTP; tự gọi số chính thức của nơi được nhắc tới để hỏi lại, và hỏi người thân trước khi quyết định."
     }
   ],
   "red_flag_signals": [
