@@ -1,5 +1,5 @@
 {
-  "data_version": 21,
+  "data_version": 22,
   "schema_version": "1.4",
   "categories": [
     {
@@ -126,7 +126,10 @@
         "chốt đơn nhận hoa hồng",
         "tuyển ctv làm việc tại nhà",
         "làm việc tại nhà không cần vốn",
-        "làm tại nhà không cần vốn"
+        "làm tại nhà không cần vốn",
+        "nộp trước tiền chạy việc",
+        "chuyển phí chạy việc",
+        "tiền chạy suất vào biên chế"
       ],
       "advice": "Cam kết lãi cao hoặc việc nhẹ lương cao thường là bẫy. Tuyệt đối không nạp tiền để nhận nhiệm vụ dưới bất kỳ hình thức nào."
     },
