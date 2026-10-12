@@ -1,5 +1,5 @@
 {
-  "data_version": 22,
+  "data_version": 23,
   "schema_version": "1.4",
   "categories": [
     {
@@ -129,7 +129,10 @@
         "làm tại nhà không cần vốn",
         "nộp trước tiền chạy việc",
         "chuyển phí chạy việc",
-        "tiền chạy suất vào biên chế"
+        "tiền chạy suất vào biên chế",
+        "phí giữ suất làm việc",
+        "đóng phí đặt cọc việc làm",
+        "nộp phí để ký hợp đồng"
       ],
       "advice": "Cam kết lãi cao hoặc việc nhẹ lương cao thường là bẫy. Tuyệt đối không nạp tiền để nhận nhiệm vụ dưới bất kỳ hình thức nào."
     },
