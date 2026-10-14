@@ -1,5 +1,5 @@
 {
-  "data_version": 23,
+  "data_version": 24,
   "schema_version": "1.4",
   "categories": [
     {
@@ -47,7 +47,9 @@
         "cung cấp mã otp",
         "đọc mã otp",
         "đăng nhập vào link sau",
-        "tài khoản của bạn có dấu hiệu bất thường"
+        "tài khoản của bạn có dấu hiệu bất thường",
+        "rút tiền thẻ tín dụng không mất phí",
+        "hỗ trợ rút tiền không mất phí"
       ],
       "advice": "Ngân hàng không bao giờ hỏi mã OTP hay mật khẩu. Hãy cúp máy và gọi lại hotline in trên mặt sau thẻ hoặc trong app ngân hàng chính thức."
     },
