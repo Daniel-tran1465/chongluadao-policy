@@ -1,5 +1,5 @@
 {
-  "data_version": 24,
+  "data_version": 25,
   "schema_version": "1.4",
   "categories": [
     {
@@ -28,7 +28,11 @@
         "chứng minh tài sản",
         "phục vụ điều tra",
         "chứng minh mình không liên quan",
-        "không liên quan đến vụ án"
+        "không liên quan đến vụ án",
+        "thuê phòng khách sạn một mình",
+        "tắt liên lạc với gia đình",
+        "không được báo công an",
+        "muốn con an toàn thì chuyển"
       ],
       "advice": "Cơ quan công an không yêu cầu chuyển tiền hay xác minh tài khoản qua điện thoại. Hãy cúp máy, tự tra số của cơ quan đó và gọi lại, hoặc đến trực tiếp trụ sở công an gần nhất."
     },
