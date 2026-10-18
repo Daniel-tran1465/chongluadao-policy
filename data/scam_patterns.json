@@ -1,5 +1,5 @@
 {
-  "data_version": 26,
+  "data_version": 27,
   "schema_version": "1.4",
   "categories": [
     {
@@ -138,7 +138,10 @@
         "tiền chạy suất vào biên chế",
         "phí giữ suất làm việc",
         "đóng phí đặt cọc việc làm",
-        "nộp phí để ký hợp đồng"
+        "nộp phí để ký hợp đồng",
+        "phí đồng phục và khám sức",
+        "chuyển khoản phí xác minh hồ sơ",
+        "xếp cho vào làm luôn"
       ],
       "advice": "Cam kết lãi cao hoặc việc nhẹ lương cao thường là bẫy. Tuyệt đối không nạp tiền để nhận nhiệm vụ dưới bất kỳ hình thức nào."
     },
