@@ -1,5 +1,5 @@
 {
-  "data_version": 27,
+  "data_version": 28,
   "schema_version": "1.4",
   "categories": [
     {
@@ -570,7 +570,10 @@
         "bạn chuyển khoản trước em gửi vé",
         "chuyển khoản cọc giữ vé",
         "chuyển khoản trước mình gửi vé",
-        "pass lại vé concert giá gốc"
+        "pass lại vé concert giá gốc",
+        "mở thẻ hội viên trước",
+        "nâng cấp vip mới gặp",
+        "kích hoạt lại thẻ vip"
       ],
       "advice": "Tin này giống một thủ đoạn báo chí vừa cảnh báo. Đừng vội làm theo: không bấm link, không chuyển tiền, không đọc mã OTP; tự gọi số chính thức của nơi được nhắc tới để hỏi lại, và hỏi người thân trước khi quyết định."
     }
