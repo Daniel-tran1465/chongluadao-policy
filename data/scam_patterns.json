@@ -1,5 +1,5 @@
 {
-  "data_version": 29,
+  "data_version": 30,
   "schema_version": "1.4",
   "categories": [
     {
@@ -576,7 +576,10 @@
         "pass lại vé concert giá gốc",
         "mở thẻ hội viên trước",
         "nâng cấp vip mới gặp",
-        "kích hoạt lại thẻ vip"
+        "kích hoạt lại thẻ vip",
+        "xem chi tiết thiệp cưới ở link",
+        "bấm vào xem địa điểm và xác nhận tham dự",
+        "gửi thiệp cưới nhé bạn xem chi tiết"
       ],
       "advice": "Tin này giống một thủ đoạn báo chí vừa cảnh báo. Đừng vội làm theo: không bấm link, không chuyển tiền, không đọc mã OTP; tự gọi số chính thức của nơi được nhắc tới để hỏi lại, và hỏi người thân trước khi quyết định."
     }
