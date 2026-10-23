@@ -1,5 +1,5 @@
 {
-  "data_version": 28,
+  "data_version": 29,
   "schema_version": "1.4",
   "categories": [
     {
@@ -70,7 +70,10 @@
         "chuyển tiền gấp giúp",
         "đổi số điện thoại mới",
         "đừng gọi lại số cũ",
-        "mượn tạm ít tiền"
+        "mượn tạm ít tiền",
+        "chuyển tiền đáo hạn cho bạn con",
+        "cần tiền đáo hạn khoản vay gấp",
+        "vào tài khoản bạn con"
       ],
       "advice": "Gọi trực tiếp vào số cũ của người thân, hoặc người đang ở cùng họ, để xác minh trước khi chuyển bất kỳ khoản tiền nào."
     },
