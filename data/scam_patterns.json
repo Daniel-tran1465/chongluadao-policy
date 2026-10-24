@@ -1,5 +1,5 @@
 {
-  "data_version": 30,
+  "data_version": 31,
   "schema_version": "1.4",
   "categories": [
     {
@@ -144,7 +144,11 @@
         "nộp phí để ký hợp đồng",
         "phí đồng phục và khám sức",
         "chuyển khoản phí xác minh hồ sơ",
-        "xếp cho vào làm luôn"
+        "xếp cho vào làm luôn",
+        "nâng cấp gói vip để ai",
+        "mua gói ai mỗi ngày",
+        "robot ai tự chạy nhận lãi",
+        "ai tự kiếm tiền rút về"
       ],
       "advice": "Cam kết lãi cao hoặc việc nhẹ lương cao thường là bẫy. Tuyệt đối không nạp tiền để nhận nhiệm vụ dưới bất kỳ hình thức nào."
     },
