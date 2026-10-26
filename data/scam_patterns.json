@@ -1,5 +1,5 @@
 {
-  "data_version": 31,
+  "data_version": 32,
   "schema_version": "1.4",
   "categories": [
     {
@@ -148,7 +148,10 @@
         "nâng cấp gói vip để ai",
         "mua gói ai mỗi ngày",
         "robot ai tự chạy nhận lãi",
-        "ai tự kiếm tiền rút về"
+        "ai tự kiếm tiền rút về",
+        "nạp vốn mua gói máy chủ",
+        "ai tự livestream bán hàng",
+        "mỗi ngày nhận lãi"
       ],
       "advice": "Cam kết lãi cao hoặc việc nhẹ lương cao thường là bẫy. Tuyệt đối không nạp tiền để nhận nhiệm vụ dưới bất kỳ hình thức nào."
     },
