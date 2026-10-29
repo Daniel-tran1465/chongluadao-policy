@@ -1,5 +1,5 @@
 {
-  "data_version": 32,
+  "data_version": 33,
   "schema_version": "1.4",
   "categories": [
     {
@@ -151,7 +151,11 @@
         "ai tự kiếm tiền rút về",
         "nạp vốn mua gói máy chủ",
         "ai tự livestream bán hàng",
-        "mỗi ngày nhận lãi"
+        "mỗi ngày nhận lãi",
+        "nhóm nhận mã cổ phiếu miễn phí",
+        "kèo forex chắc thắng",
+        "lỗ bên em bù 100%",
+        "trợ lý của chuyên gia chứng khoán"
       ],
       "advice": "Cam kết lãi cao hoặc việc nhẹ lương cao thường là bẫy. Tuyệt đối không nạp tiền để nhận nhiệm vụ dưới bất kỳ hình thức nào."
     },
