@@ -1,5 +1,5 @@
 {
-  "data_version": 33,
+  "data_version": 34,
   "schema_version": "1.4",
   "categories": [
     {
@@ -155,7 +155,10 @@
         "nhóm nhận mã cổ phiếu miễn phí",
         "kèo forex chắc thắng",
         "lỗ bên em bù 100%",
-        "trợ lý của chuyên gia chứng khoán"
+        "trợ lý của chuyên gia chứng khoán",
+        "tiền cọc làm hồ sơ visa",
+        "đặt cọc giữ suất đi hàn",
+        "cọc giữ suất lao động thời vụ"
       ],
       "advice": "Cam kết lãi cao hoặc việc nhẹ lương cao thường là bẫy. Tuyệt đối không nạp tiền để nhận nhiệm vụ dưới bất kỳ hình thức nào."
     },
