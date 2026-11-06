@@ -1,5 +1,5 @@
 {
-  "data_version": 36,
+  "data_version": 38,
   "schema_version": "1.4",
   "categories": [
     {
@@ -32,7 +32,10 @@
         "thuê phòng khách sạn một mình",
         "tắt liên lạc với gia đình",
         "không được báo công an",
-        "muốn con an toàn thì chuyển"
+        "muốn con an toàn thì chuyển",
+        "không được nhắc đến công an",
+        "nói rút tiền cho con làm nhà",
+        "nhân viên ngân hàng hỏi thì nói"
       ],
       "advice": "Cơ quan công an không yêu cầu chuyển tiền hay xác minh tài khoản qua điện thoại. Hãy cúp máy, tự tra số của cơ quan đó và gọi lại, hoặc đến trực tiếp trụ sở công an gần nhất."
     },
@@ -53,7 +56,10 @@
         "đăng nhập vào link sau",
         "tài khoản của bạn có dấu hiệu bất thường",
         "rút tiền thẻ tín dụng không mất phí",
-        "hỗ trợ rút tiền không mất phí"
+        "hỗ trợ rút tiền không mất phí",
+        "chuyển sang tài khoản an toàn",
+        "tài khoản an toàn do chúng tôi cung cấp",
+        "bộ phận an ninh ngân hàng"
       ],
       "advice": "Ngân hàng không bao giờ hỏi mã OTP hay mật khẩu. Hãy cúp máy và gọi lại hotline in trên mặt sau thẻ hoặc trong app ngân hàng chính thức."
     },
