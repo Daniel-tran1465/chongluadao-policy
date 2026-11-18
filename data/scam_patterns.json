@@ -1,5 +1,5 @@
 {
-  "data_version": 38,
+  "data_version": 39,
   "schema_version": "1.4",
   "categories": [
     {
@@ -255,7 +255,10 @@
         "muốn gửi tặng em một món quà",
         "nạp giúp em vào ví",
         "em hướng dẫn anh kiếm lời",
-        "anh nạp thử 5 triệu"
+        "anh nạp thử 5 triệu",
+        "nạp tiền kích hoạt lượt quay",
+        "để kích hoạt lượt quay",
+        "tham gia vòng quay may mắn để kết nối"
       ],
       "advice": "Người chưa từng gặp mặt mà nhờ đóng phí nhận quà là dấu hiệu lừa đảo. Không chuyển tiền cho người quen qua mạng."
     },
