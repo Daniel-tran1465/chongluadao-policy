@@ -1,5 +1,5 @@
 {
-  "data_version": 39,
+  "data_version": 40,
   "schema_version": "1.4",
   "categories": [
     {
@@ -166,7 +166,10 @@
         "đặt cọc giữ suất đi hàn",
         "cọc giữ suất lao động thời vụ",
         "chuyển khoản vào tài khoản công ty để nhận cổ tức",
-        "kích hoạt gói đầu tư"
+        "kích hoạt gói đầu tư",
+        "đóng trước tiền chân hụi",
+        "đóng hụi chết qua chuyển khoản",
+        "chuyển khoản giữ chân trước"
       ],
       "advice": "Cam kết lãi cao hoặc việc nhẹ lương cao thường là bẫy. Tuyệt đối không nạp tiền để nhận nhiệm vụ dưới bất kỳ hình thức nào."
     },
