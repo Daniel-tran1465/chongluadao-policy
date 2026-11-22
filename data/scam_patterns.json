@@ -1,5 +1,5 @@
 {
-  "data_version": 40,
+  "data_version": 41,
   "schema_version": "1.4",
   "categories": [
     {
@@ -610,7 +610,11 @@
         "kích hoạt lại thẻ vip",
         "xem chi tiết thiệp cưới ở link",
         "bấm vào xem địa điểm và xác nhận tham dự",
-        "gửi thiệp cưới nhé bạn xem chi tiết"
+        "gửi thiệp cưới nhé bạn xem chi tiết",
+        "mở dây hụi online",
+        "chuyển tiền đóng hụi kỳ đầu",
+        "mua lại chân hụi",
+        "chốt chân hụi cho chị"
       ],
       "advice": "Tin này giống một thủ đoạn báo chí vừa cảnh báo. Đừng vội làm theo: không bấm link, không chuyển tiền, không đọc mã OTP; tự gọi số chính thức của nơi được nhắc tới để hỏi lại, và hỏi người thân trước khi quyết định."
     }
