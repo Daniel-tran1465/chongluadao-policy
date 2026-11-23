@@ -1,5 +1,5 @@
 {
-  "data_version": 41,
+  "data_version": 42,
   "schema_version": "1.4",
   "categories": [
     {
@@ -59,7 +59,10 @@
         "hỗ trợ rút tiền không mất phí",
         "chuyển sang tài khoản an toàn",
         "tài khoản an toàn do chúng tôi cung cấp",
-        "bộ phận an ninh ngân hàng"
+        "bộ phận an ninh ngân hàng",
+        "vui lòng đổi điểm lấy quà tại",
+        "đổi điểm thưởng trước khi hết hạn tại",
+        "nhận hoa hồng giao dịch tại"
       ],
       "advice": "Ngân hàng không bao giờ hỏi mã OTP hay mật khẩu. Hãy cúp máy và gọi lại hotline in trên mặt sau thẻ hoặc trong app ngân hàng chính thức."
     },
