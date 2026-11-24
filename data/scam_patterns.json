@@ -1,5 +1,5 @@
 {
-  "data_version": 42,
+  "data_version": 43,
   "schema_version": "1.4",
   "categories": [
     {
@@ -35,7 +35,9 @@
         "muốn con an toàn thì chuyển",
         "không được nhắc đến công an",
         "nói rút tiền cho con làm nhà",
-        "nhân viên ngân hàng hỏi thì nói"
+        "nhân viên ngân hàng hỏi thì nói",
+        "tuyệt đối không nhắc đến công an",
+        "nói là chuyển tiền mua đất"
       ],
       "advice": "Cơ quan công an không yêu cầu chuyển tiền hay xác minh tài khoản qua điện thoại. Hãy cúp máy, tự tra số của cơ quan đó và gọi lại, hoặc đến trực tiếp trụ sở công an gần nhất."
     },
