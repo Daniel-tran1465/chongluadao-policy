@@ -1,5 +1,5 @@
 {
-  "data_version": 43,
+  "data_version": 45,
   "schema_version": "1.4",
   "categories": [
     {
@@ -174,7 +174,11 @@
         "kích hoạt gói đầu tư",
         "đóng trước tiền chân hụi",
         "đóng hụi chết qua chuyển khoản",
-        "chuyển khoản giữ chân trước"
+        "chuyển khoản giữ chân trước",
+        "đơn hàng đi hàn",
+        "không cần thi tiếng",
+        "phí đặt cọc hồ sơ",
+        "nộp trước phí làm hồ sơ"
       ],
       "advice": "Cam kết lãi cao hoặc việc nhẹ lương cao thường là bẫy. Tuyệt đối không nạp tiền để nhận nhiệm vụ dưới bất kỳ hình thức nào."
     },
@@ -526,7 +530,11 @@
         "chênh suất nhà ở xã hội",
         "tiền chênh suất",
         "suất nội bộ nhà ở xã hội",
-        "quen lãnh đạo nên có suất"
+        "quen lãnh đạo nên có suất",
+        "suất ngoại giao nhà ở xã hội",
+        "đặt cọc để giữ suất",
+        "suất nội bộ noxh",
+        "chuyển cọc trước 50%"
       ],
       "advice": "Không có “suất ngoại giao” nhà ở xã hội. Người nhận “giữ chỗ”, thu “tiền chênh” hay “phí đối ngoại” thường chiếm đoạt tiền rồi cắt liên lạc. Hãy nộp hồ sơ trực tiếp cho chủ đầu tư, kiểm tra pháp lý dự án và đừng đưa tiền cho người môi giới hứa “bao đậu”."
     },
