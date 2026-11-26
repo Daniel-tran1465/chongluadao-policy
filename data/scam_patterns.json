@@ -1,5 +1,5 @@
 {
-  "data_version": 45,
+  "data_version": 47,
   "schema_version": "1.4",
   "categories": [
     {
@@ -378,7 +378,10 @@
         "lý lịch tư pháp không cần thủ tục",
         "cài ứng dụng bảo hiểm theo link",
         "tải file cài đặt em gửi",
-        "cấp quyền cho ứng dụng bảo hiểm"
+        "cấp quyền cho ứng dụng bảo hiểm",
+        "tài khoản vneid chưa được cập nhật",
+        "đồng bộ dữ liệu kẻo bị khoá",
+        "link tôi gửi qua zalo để đồng bộ"
       ],
       "advice": "Cơ quan nhà nước không yêu cầu cung cấp mã xác thực hay chuyển tiền qua tin nhắn/link lạ. Chỉ dùng ứng dụng VNeID, eTax Mobile và cổng dịch vụ công chính thức tải từ kho ứng dụng; trang web thật của cơ quan nhà nước luôn có đuôi .gov.vn."
     },
@@ -627,7 +630,11 @@
         "mở dây hụi online",
         "chuyển tiền đóng hụi kỳ đầu",
         "mua lại chân hụi",
-        "chốt chân hụi cho chị"
+        "chốt chân hụi cho chị",
+        "nhượng lại tour",
+        "pass lại tour giá rẻ",
+        "chuyển cọc giữ tour",
+        "gửi vé và mã đặt phòng"
       ],
       "advice": "Tin này giống một thủ đoạn báo chí vừa cảnh báo. Đừng vội làm theo: không bấm link, không chuyển tiền, không đọc mã OTP; tự gọi số chính thức của nơi được nhắc tới để hỏi lại, và hỏi người thân trước khi quyết định."
     }
