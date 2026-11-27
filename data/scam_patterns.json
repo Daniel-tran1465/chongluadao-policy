@@ -1,5 +1,5 @@
 {
-  "data_version": 47,
+  "data_version": 49,
   "schema_version": "1.4",
   "categories": [
     {
@@ -537,7 +537,10 @@
         "suất ngoại giao nhà ở xã hội",
         "đặt cọc để giữ suất",
         "suất nội bộ noxh",
-        "chuyển cọc trước 50%"
+        "chuyển cọc trước 50%",
+        "muốn chắc suất thì chuyển",
+        "phí ưu tiên hồ sơ nhà ở xã hội",
+        "đưa hồ sơ lên đầu danh sách"
       ],
       "advice": "Không có “suất ngoại giao” nhà ở xã hội. Người nhận “giữ chỗ”, thu “tiền chênh” hay “phí đối ngoại” thường chiếm đoạt tiền rồi cắt liên lạc. Hãy nộp hồ sơ trực tiếp cho chủ đầu tư, kiểm tra pháp lý dự án và đừng đưa tiền cho người môi giới hứa “bao đậu”."
     },
@@ -634,7 +637,9 @@
         "nhượng lại tour",
         "pass lại tour giá rẻ",
         "chuyển cọc giữ tour",
-        "gửi vé và mã đặt phòng"
+        "gửi vé và mã đặt phòng",
+        "clip riêng tư full không che",
+        "chuyển khoản trước mình gửi link drive"
       ],
       "advice": "Tin này giống một thủ đoạn báo chí vừa cảnh báo. Đừng vội làm theo: không bấm link, không chuyển tiền, không đọc mã OTP; tự gọi số chính thức của nơi được nhắc tới để hỏi lại, và hỏi người thân trước khi quyết định."
     }
