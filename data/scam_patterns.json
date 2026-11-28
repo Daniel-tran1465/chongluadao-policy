@@ -1,5 +1,5 @@
 {
-  "data_version": 49,
+  "data_version": 50,
   "schema_version": "1.4",
   "categories": [
     {
@@ -639,7 +639,10 @@
         "chuyển cọc giữ tour",
         "gửi vé và mã đặt phòng",
         "clip riêng tư full không che",
-        "chuyển khoản trước mình gửi link drive"
+        "chuyển khoản trước mình gửi link drive",
+        "cam kết khỏi bệnh",
+        "chữa khỏi dứt điểm",
+        "tiền thuốc đặc trị đợt"
       ],
       "advice": "Tin này giống một thủ đoạn báo chí vừa cảnh báo. Đừng vội làm theo: không bấm link, không chuyển tiền, không đọc mã OTP; tự gọi số chính thức của nơi được nhắc tới để hỏi lại, và hỏi người thân trước khi quyết định."
     }
